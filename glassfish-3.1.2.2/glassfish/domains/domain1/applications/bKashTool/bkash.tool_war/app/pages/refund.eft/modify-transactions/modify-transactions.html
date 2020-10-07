@@ -1,0 +1,14 @@
+<div ng-controller="modifyTransactionsController as modifyTransactions" style='overflow-x: auto'>
+    <!--Message : {{modifyTransactions.message}}--> 
+
+    <br/>
+    
+    <input type="text" name="refundNo" id="refundNo" placeholder="Refund No" ng-model="modifyTransactions.refundNo">
+    <input type="submit" value="Search Data" id="btnCallWebService" id="btnCallWebService" ng-click="modifyTransactions.reloadData()"/>
+<br/><br/>
+<div id="jtableMasterTable" style="width: 100%;overflow: auto"></div>
+
+
+    
+    
+</div>

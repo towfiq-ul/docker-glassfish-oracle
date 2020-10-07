@@ -1,0 +1,12 @@
+<div ng-controller="scheduleRefundController as scheduleRefund">
+    <div id="tabContent">
+        <label id="bodyParagraph">Schedule Refund Reports &nbsp;</label>
+        <input type="submit" value="Send Files" id="btnCallWebService" name="btnCallWebService" ng-click="scheduleRefund.onGeneratedFiles()"/><br/><br/>
+    </div>
+    <div>
+        <p id="bodyParagraph">Scheduled Refund Reports Status</p>
+        <div id="responsediv">
+            <label id="responses">{{scheduleRefund.scheduleRefundStatus}}</label>
+        </div>
+    </div>
+</div>

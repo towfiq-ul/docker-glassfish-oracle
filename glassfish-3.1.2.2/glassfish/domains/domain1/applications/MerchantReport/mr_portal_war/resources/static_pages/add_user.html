@@ -1,0 +1,155 @@
+<h2>Add Merchant</h2>
+<link href="resources/css/custom.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<script type="text/javascript">
+    function validateForm() {
+//        var x = document.forms["uploadForm"]["hdd_name"].value;
+//        var y = document.forms["uploadForm"]["file"].value;
+        var username = document.forms["uploadForm"]["username"].value;
+        var merchantName = document.forms["uploadForm"]["merchantName"].value;
+        var address = document.forms["uploadForm"]["address"].value;
+        var profileUID = document.forms["uploadForm"]["profileUID"].value;
+//        console.log('Select: ' + x + ' File: ' + y);
+        console.log('username ' + username);
+        console.log('merchantName ' + merchantName);
+        console.log('address ' + address);
+        console.log('profileUID ' + profileUID);
+        if (username == null || username == "" || merchantName == null || merchantName == "" || address == null || address == "" || profileUID == null || profileUID == "") {
+            alert("Fill Up All the Fields");
+            return false;
+        }
+
+//        if (company_logo.toLowerCase().indexOf(".png") >= 0 || company_logo.toLowerCase().indexOf(".jpg") >= 0) {
+//
+//        }
+//        else {
+////            alert("Select .jpg or .png File Only");
+////            return false;
+//        }
+    }
+</script>
+<!--<form name="uploadForm" action="Upload" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">-->
+<form name="uploadForm" action="Upload" method="post" enctype="multipart/form-data">
+    <table>
+        <tbody>
+            <tr>
+                <td style="text-align:right">
+                    <label for="username">User Name</label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="username" required/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="merchantName">Merchant Name</label>
+                </td>
+                <td>
+                    <input type="text" name="merchantName" id="merchantName" required/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="profileUID">Profile UID</label>
+                </td>
+                <td>
+                    <input type="text" name="profileUID" id="profileUID" required/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="merchantWallet">Merchant Wallet</label>
+                </td>
+                <td>
+                    <input type="text" name="merchantWallet" id="merchantWallet"/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="cash_settlement">Select Cash Settlement</label>
+                </td>
+                <td>
+                    <select name="cash_settlement" id="cash_settlement">
+                        <option value="Daily">Daily</option>
+                        <option value="Fortnight">Fortnight</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="On Request">On Request</option>
+                        <option value="weekly">weekly</option>
+                        <option value="EFT Issue">EFT Issue</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="merchant_type">Select Merchant Type</label>
+                </td>
+                <td>
+                    <select name="merchant_type" id="merchant_type">
+                        <!--<option value="">Select Type</option>-->
+                        <option value="Small Merchant">Small Merchant</option>
+                        <option value="Retail Merchant">Retail Merchant</option>
+                        <option value="Corp. Client">Corp. Client</option>
+                        <option value="Enterprise Merchant">Enterprise Merchant</option>
+                        <option value="Disbursement Merchant">Disbursement Merchant</option>
+                        <option value="Masterdata Admin">Masterdata Admin</option>
+                        <option value="Finance">Finance</option>
+                        <!--<option value="Administrator">Administrator</option>-->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="layer_id">Select Merchant Hierarchy</label>
+                </td>
+                <td>
+                    <select name="layer_id" id="layer_id">
+                        <!--<option value="">Select Type</option>-->
+                        <option value="10">Small Merchant</option>
+                        <option value="11">Single RM</option>
+                        <option value="21">RM Head Office</option>
+                        <option value="66">Corp. Client Single</option>
+                        <option value="61">Corp. Client HO</option>
+                        <option value="67">Enterprise Merchant</option>
+                        <option value="41">Disbursement Merchant</option>
+                        <option value="51">Masterdata Admin</option>
+                        <option value="52">Finance</option>
+                        <!--<option value="50">Administrator</option>-->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea type="textarea" name="address" id="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="email">Email Address</label>
+                </td>
+                <td>
+                    <input type="text" name="email" id="email"></input>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">
+                    <label for="company_logo">Upload Logo(*.png,*.jpg)</label>
+                </td>
+                <td>
+                    <input type="file" name="company_logo" id="company_logo"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td> 
+                </td>
+                <td>
+                    <input type="submit" value="Add Merchant" />
+                </td>
+            </tr>
+        </tbody></table>
+</form>
+
+

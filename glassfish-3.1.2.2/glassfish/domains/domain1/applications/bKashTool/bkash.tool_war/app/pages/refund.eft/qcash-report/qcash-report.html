@@ -1,0 +1,13 @@
+<div ng-controller="qcashReportController as qcashReport">
+       <br/>
+    <div id="tabContent">
+        <input type="submit" value="Generate Q-Cash Report" id="btnCallWebService" name="btnCallWebService" ng-click="qcashReport.generateFiles()"/><br/><br/>
+    </div>
+    <div>
+        <p id="bodyParagraph">File Generation Status</p>
+        <div id="responsediv">
+            <label id="responses">{{qcashReport.status}}</label>
+        </div>
+    </div>
+       <br/>    
+</div>

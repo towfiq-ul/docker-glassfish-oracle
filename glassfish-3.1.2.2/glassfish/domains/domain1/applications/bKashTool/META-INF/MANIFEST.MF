@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Class-Path: bKashTool-ejb.jar bkash.tool.war lib/commons-csv-1.4.jar l
+ ib/commons-fileupload-1.3.1.jar lib/commons-io-2.2.jar lib/cos-09May2
+ 002.jar lib/dom4j-1.6.jar lib/gson-2.2.jar lib/itextpdf-5.5.4.jar lib
+ /jsch-0.1.48.jar lib/json-simple-1.1.1.jar lib/org.apache.commons.fil
+ eupload.jar lib/org.json.jar lib/poi-3.9-20121203.jar lib/poi-3.11-20
+ 141221.jar lib/poi-ooxml-3.9.jar lib/poi-ooxml-3.9-20121203.jar lib/p
+ oi-ooxml-schemas-3.9-20121203.jar lib/stax-api-1.0.1.jar lib/xmlbeans
+ -2.6.0.jar
+Build-Jdk: 1.7.0_242
+Built-By: towfiq106
+Created-By: Apache Maven 3.6.1
+

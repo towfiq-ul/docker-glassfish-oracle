@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+ 
+    <package name="barcelona" extends="struts-default">
+
+        <action name="liftingAndRefundSummary" class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
+            <result  name="success" >/secure/action/barcelona/liftingAndRefundSummary_ui.jsp</result>
+        </action>
+        
+        <action name="liftingAndSummaryResult" class="com.bkash.reportportal.action.barceolona.liftingAndRefundSummary_result" method="execute">
+            <result  name="success" >/secure/action/barcelona/liftingAndRefundSummary_result.jsp</result>
+        </action> 
+        
+        <action name="kycStatusOfWallet" class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
+            <result  name="success" >/secure/action/barcelona/kycStatusOfWallet_ui.jsp</result>
+        </action> 
+        
+        <action name="kycStatusOfWalletResult" class="com.bkash.reportportal.action.barceolona.kycStatusOfWallet_result" method="execute">
+            <result  name="success" >/secure/action/barcelona/kycStatusOfWallet_result.jsp</result>
+        </action>
+        
+        
+        
+        <action name="registrationReport_ui" class="com.bkash.reportportal.action.barcelona.registrationReport_ui" method="execute">
+            <result  name="success" >/secure/action/barcelona/registrationReport_ui.jsp</result>
+        </action>
+        
+        <action name="registrationReport_result" class="com.bkash.reportportal.action.barcelona.registrationReport_result" method="execute">
+            <result  name="success" >/secure/action/barcelona/registrationReport_result.jsp</result>
+        </action>
+        
+
+        <action name="walletBalanceReport_result" class="com.bkash.reportportal.action.barcelona.walletBalanceReport_result" method="execute">
+            <result  name="success" >/secure/action/barcelona/walletBalanceReport_result.jsp</result>
+        </action>
+        
+        <action name="walletBalanceReport_ui" class="com.bkash.reportportal.action.barcelona.walletBalanceReport_ui" method="execute">
+            <result  name="success" >/secure/action/barcelona/walletBalanceReport_ui.jsp</result>
+        </action>
+    </package>
+ 
+</struts>

@@ -1,0 +1,57 @@
+/* AUTOMATICALLY GENERATED ON Thu Mar 05 18:17:51 BDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "getAllDmMasterTempDataChecker,Local,int,int";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "createUpdateTempData,Local,com.bkash.merchant.report.ejb.entities.DwlDisMerStmtTemp,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "getUserEditData,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "getAllUser,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "countRmMasterTempDataChecker,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "countRmMasterData,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "rejectRmTempData,Local,java.lang.String,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "deleteFromTempData,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getSummaryReport,Local,com.bkash.merchant.report.ejb.entities.SummaryReportRequestEntity";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "deleteFromDmAdditionalInfo,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "getRmHistoryData,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getDmInfo,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "createUpdateTempData,Local,com.bkash.merchant.report.ejb.entities.DwlRetMstTemp,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "addUser,Local,com.bkash.merchant.report.ejb.entities.BeanUserAddRequest";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "approveRmTempData,Local,java.lang.String,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "countDmMasterData,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "getUserTreeData,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "getDmHistoryData,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getUserConfig,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getReportData,Local,java.lang.String,java.lang.String,java.util.Map";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "getAllRmMasterTempDataChecker,Local,int,int";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "approveDmTempData,Local,java.lang.String,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getBankSettlementData,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "updateAppendRequest,Local,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "countRmMasterTempDataMaker,Local,";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "countDmAdditionalInfoData,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "getAllDmMasterData,Local,int,int,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "getAllProfileUIDCount,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "passResetAdmin,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "deleteFromTempData,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "changeCashSettlement,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "updateRmTempDataSubmitRequest,Local,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getFieldOptions,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "addMerchantData,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getTotalSummaryReport,Local,com.bkash.merchant.report.ejb.entities.SummaryReportRequestEntity";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "postUserEditData,Local,com.bkash.merchant.report.ejb.entities.MerchantPropEntity";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "getAllDmAdditionalInfoData,Local,int,int,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "updateDmTempDataSubmitRequest,Local,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "userRemoveAdmin,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "getAllDmMasterTempDataMaker,Local,int,int";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getDmReport,Local,com.bkash.merchant.report.ejb.entities.DmReportRequestBeanEntity";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "getAllProfileUID,Local,int,int,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "countDmMasterTempDataMaker,Local,";
+  permission javax.security.jacc.EJBMethodPermission "MerchantUserManagementBean", "changePassword,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "rejectDmTempData,Local,java.lang.String,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "getAllRmMasterData,Local,int,int,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "getAllRmMasterTempDataMaker,Local,int,int";
+  permission javax.security.jacc.EJBMethodPermission "CheckerMakerBean", "updateAppendRequest,Local,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "createUpdateDmAdditionalData,Local,com.bkash.merchant.report.ejb.entities.DmAdditionalInfo,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "MerchantReportBean", "getReconciliationReport,Local,com.bkash.merchant.report.ejb.entities.ReconciliationReportRequestEntity";
+  permission javax.security.jacc.EJBMethodPermission "DmCheckerMakerBean", "countDmMasterTempDataChecker,Local,";
+};
+

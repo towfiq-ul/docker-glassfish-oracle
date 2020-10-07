@@ -1,0 +1,32 @@
+/*
+ *   Color skin GRAY
+ *   ===============
+ **/
+
+body          { background-image: url(../images/red/bg-body.gif); }
+#main         {	background-image: url(../images/red/bg-header-repeat.png); }
+#header       { background-image: url(../images/red/bg-header.png); }
+
+.box .headlines { background-image: url(../images/gray/bg-headlines.gif); }
+.box .headlines h2 { color:#FFF;line-height: 1.3em; }
+.box .headlines h2 span {  }
+
+.box .bookmarks { background-image: url(../images/gray/bg-headlines.gif); }
+.box .bookmarks li.ui-state-active   { background-image: url(../images/gray/bg-bookmark.gif); }
+.box .bookmarks li.ui-state-active a { background-image: url(../images/gray/bg-bookmark.gif); }
+
+.formBox .button,
+.btn-default { background: url(../images/red/bg-button.gif); }
+
+a { color: #000; }
+a.logo {position: relative; top: 55px; left: 60px; width: 289px; height: 40px; float: left; }
+
+.pagination ul li.active a  { color: #000 !important; }
+
+table.jCalendar th,
+div.dp-popup h2,
+table.jCalendar td.selected:hover,
+table.jCalendar td:hover,table.jCalendar td.dp-hover { color: #000 !important; }
+
+table.jCalendar td.selected { background: #4e4c4c; }
+table.jCalendar td.today { background-color: #dedede; }

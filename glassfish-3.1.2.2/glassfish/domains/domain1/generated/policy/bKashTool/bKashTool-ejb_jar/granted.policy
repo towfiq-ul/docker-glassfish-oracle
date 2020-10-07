@@ -1,0 +1,30 @@
+/* AUTOMATICALLY GENERATED ON Thu Mar 05 13:23:09 BDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "ReportBean", "getMsfReportList,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "generateQcashFiles,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "EmailSessionBean", "sendEmail,Local,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "uploadEftFileStatus,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getRefundHistoryDetails,Local,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "generateRefundChargeFiles,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ReportBean", "generateMsfReport,Local,int,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ReportBean", "getMsfReportById,Local,int";
+  permission javax.security.jacc.EJBMethodPermission "UserConfigurationBean", "getUserMenu,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "countgetRefundToday,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserConfigurationBean", "getAllMenu,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getRefundToday,Local,int,int,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "updateRefundEntity,Local,com.bkash.rnd.refund.eft.ejb.entities.MoneyRefundRequestCps,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "sendScheduleRefundFiles,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "insertDistributorRefundData,Local,com.bkash.rnd.refund.eft.ejb.dto.RefundDto";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "sftpRefundLeftOverEftFiles,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "generateRefundFiles,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "ReportBean", "getMsfReport,Local,";
+  permission javax.security.jacc.EJBMethodPermission "UserConfigurationBean", "isMenuAccessValid,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getNewFileNames,Local,java.util.List";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getListSftpLocation,Local,";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "insertMerchantRefundData,Local,com.bkash.rnd.refund.eft.ejb.dto.RefundDto";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getListAvailableTransactions,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "RefundFileGenerationBean", "getRefundHistory,Local,java.lang.String,java.lang.String";
+};
+

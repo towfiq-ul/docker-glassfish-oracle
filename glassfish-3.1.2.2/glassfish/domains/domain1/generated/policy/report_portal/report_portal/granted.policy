@@ -1,0 +1,181 @@
+/* AUTOMATICALLY GENERATED ON Mon Feb 24 20:59:48 BDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/:/secure/action/*:/services/auth/list:/services/auth/reset:/services/auth/remove:/secure/Admin/*:/services/auth/register:/secure/action/user_config/*:/services/secure/*:/secure/action/dashboard:/secure/action/home:/secure/*:/services/auth/change:/secure/action/change";
+  permission javax.security.jacc.WebUserDataPermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebUserDataPermission "/services/auth/change";
+  permission javax.security.jacc.WebUserDataPermission "/secure/action/home";
+  permission javax.security.jacc.WebUserDataPermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebUserDataPermission "/services/auth/remove";
+  permission javax.security.jacc.WebUserDataPermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebUserDataPermission "/secure/action/user_config/*";
+  permission javax.security.jacc.WebUserDataPermission "/services/secure/*";
+  permission javax.security.jacc.WebUserDataPermission "/:/secure/action/*:/services/auth/list:/services/auth/reset:/services/auth/remove:/secure/Admin/*:/services/auth/register:/secure/action/user_config/*:/services/secure/*:/secure/action/dashboard:/secure/action/home:/secure/*:/services/auth/change:/secure/action/change";
+  permission javax.security.jacc.WebUserDataPermission "/services/auth/list";
+  permission javax.security.jacc.WebUserDataPermission "/secure/Admin/*";
+  permission javax.security.jacc.WebUserDataPermission "/services/auth/reset";
+  permission javax.security.jacc.WebUserDataPermission "/services/auth/register";
+  permission javax.security.jacc.WebUserDataPermission "/secure/action/change";
+};
+
+grant      principal org.glassfish.security.common.Group "RSM" {
+  permission javax.security.jacc.WebRoleRefPermission "default", "RSM";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "RSM";
+  permission javax.security.jacc.WebRoleRefPermission "", "RSM";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "RSM";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "SalesOps" {
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "SalesOps";
+  permission javax.security.jacc.WebRoleRefPermission "", "SalesOps";
+  permission javax.security.jacc.WebRoleRefPermission "default", "SalesOps";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "SalesOps";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "DISTRIBUTOR" {
+  permission javax.security.jacc.WebRoleRefPermission "", "DISTRIBUTOR";
+  permission javax.security.jacc.WebRoleRefPermission "default", "DISTRIBUTOR";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "DISTRIBUTOR";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "DISTRIBUTOR";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "AGENT" {
+  permission javax.security.jacc.WebRoleRefPermission "", "AGENT";
+  permission javax.security.jacc.WebRoleRefPermission "default", "AGENT";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "AGENT";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "AGENT";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "ADMINISTRATOR" {
+  permission javax.security.jacc.WebRoleRefPermission "", "ADMINISTRATOR";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "ADMINISTRATOR";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "ADMINISTRATOR";
+  permission javax.security.jacc.WebRoleRefPermission "default", "ADMINISTRATOR";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/list";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/reset";
+  permission javax.security.jacc.WebResourcePermission "/secure/Admin/*";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/remove";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/user_config/*";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/register";
+};
+
+grant      principal org.glassfish.security.common.Group "BSA" {
+  permission javax.security.jacc.WebRoleRefPermission "", "BSA";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "BSA";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "BSA";
+  permission javax.security.jacc.WebRoleRefPermission "default", "BSA";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "QC" {
+  permission javax.security.jacc.WebRoleRefPermission "default", "QC";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "QC";
+  permission javax.security.jacc.WebRoleRefPermission "", "QC";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "QC";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "COMPLIANCE" {
+  permission javax.security.jacc.WebRoleRefPermission "default", "COMPLIANCE";
+  permission javax.security.jacc.WebRoleRefPermission "", "COMPLIANCE";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "COMPLIANCE";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "COMPLIANCE";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "TM" {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "TM";
+  permission javax.security.jacc.WebRoleRefPermission "default", "TM";
+  permission javax.security.jacc.WebRoleRefPermission "", "TM";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "TM";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "SND" {
+  permission javax.security.jacc.WebRoleRefPermission "", "SND";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "SND";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "SND";
+  permission javax.security.jacc.WebRoleRefPermission "default", "SND";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+
+grant      principal org.glassfish.security.common.Group "SM" {
+  permission javax.security.jacc.WebRoleRefPermission "default", "SM";
+  permission javax.security.jacc.WebRoleRefPermission "", "SM";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "SM";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey REST Service", "SM";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/*:/secure/action/user_config/*:/secure/action/dashboard:/secure/action/home:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/*:/secure/action/user_config/*:/secure/action/*:/secure/action/dashboard:/secure/action/home:/secure/Admin/*:/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/dashboard";
+  permission javax.security.jacc.WebResourcePermission "/services/auth/change";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/change";
+  permission javax.security.jacc.WebResourcePermission "/services/secure/*";
+  permission javax.security.jacc.WebResourcePermission "/secure/action/home";
+};
+

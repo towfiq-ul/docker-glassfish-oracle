@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2014, 10:34:21 PM
+    Author     : SHAHEEN
+*/
+
+table.reference,table.tecspec{
+	border-collapse:collapse;width:100%;
+
+}
+
+table.reference tr:nth-child(odd)	{background-color:#f1f1f1;}
+table.reference tr:nth-child(even)	{background-color:#ffffff;}
+
+table.reference tr.fixzebra			{background-color:#f1f1f1;}
+
+table.reference th{
+	color:#ffffff;
+        background-color:#555555;
+        border:1px solid #555555;
+        padding:3px;
+        vertical-align:middle;
+        text-align:center;
+}
+
+table.reference th a:link,table.reference th a:visited{
+	color:#ffffff;
+}
+
+table.reference th a:hover,table.reference th a:active{
+	color:#EE872A;
+}
+
+table.reference td{
+	border:1px solid #d4d4d4;
+        padding:3px;
+/*        padding-top:7px;
+        padding-bottom:7px;*/
+        vertical-align:middle;
+        text-align:center;
+}
+
+table.reference td.example_code
+{
+vertical-align:bottom;
+}

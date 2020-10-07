@@ -1,0 +1,43 @@
+<script type="text/javascript" src="resources/js/dis_report_client.js"></script>
+<script type="text/javascript">
+    // $(".dp").datepicker({minDate: "-1M", maxDate: "+0D", dateFormat: "yy-M"});
+
+    $(".dp").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        showButtonPanel: true,
+        minDate: "-6M",
+        maxDate: "+0D",
+        dateFormat: "yy-M",
+//                            onClose: function(dateText, inst) {
+//                                $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
+//                            }
+        onClose: function(dateText, inst) {
+            var month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+            var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+            $(this).val($.datepicker.formatDate('yy-M', new Date(year, month, 1)));
+        }
+    });
+
+    $(".dp").focus(function() {
+        $(".ui-datepicker-calendar").hide();
+        $("#ui-datepicker-div").position({
+            my: "center top",
+            at: "center bottom",
+            of: $(this)
+        });
+    });
+
+
+</script>
+<p>Disbursement Report Client</p>
+
+<input autocomplete="off" readonly="readonly" class="dp" name="txt_month" id="txt_month" type="text" placeholder="Select Month" required="Required" >
+<button id="pdfDmData" role="button" aria-disabled="false">
+    <span class="ui-button-text">Download PDF</span>
+</button>
+<button id="excelDmData" role="button" aria-disabled="false">
+    <span class="ui-button-text">Download Excel</span>
+</button>
+
+

@@ -1,0 +1,77 @@
+/* AUTOMATICALLY GENERATED ON Tue Jan 21 19:14:56 BDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "getListAllData,Local,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "remove,Local,com.bkash.model.usermanagement.User";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "detach,Local,com.bkash.model.usermanagement.User";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "updateRecord,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "deleteData,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "save,Local,com.bkash.model.usermanagement.User";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "find,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "remove,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "createRecord,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "getRaList,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "login,Local,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "ping,Local,";
+  permission javax.security.jacc.EJBMethodPermission "UserBean", "update,Local,com.bkash.model.usermanagement.User";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "logout,Local,javax.servlet.http.HttpServletRequest";
+};
+
+grant      principal org.glassfish.security.common.Group "DISTRIBUTOR" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "SalesOps" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "RSM" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "AGENT" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "ADMINISTRATOR" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "login,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "reset,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "register,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "remove,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "BSA" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "QC" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "COMPLIANCE" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "TM" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "BSO" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "SND" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "SM" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+
+grant      principal org.glassfish.security.common.Group "FINANCE" {
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "change,Local,com.bkash.model.usermanagement.dto.UserDTO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse";
+};
+

@@ -1,0 +1,59 @@
+# 1580204969580 Do not modify this line
+[28/Jan/2020:15:49:29 BDT] [B1002]: An existing property file for imqbroker was not found, no stored properties will be loaded
+[28/Jan/2020:15:49:29 BDT] 
+================================================================================
+Open Message Queue 4.5.2
+Oracle
+Version:  4.5.2 Patch 1  (Build 3-d)
+Compile:  Thu Jun  7 10:46:15 PDT 2012
+
+Copyright (c) 2012, Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.7.0_242 Azul Systems, Inc. /home/towfiq106/.sdkman/candidates/java/7.0.242-zulu/jre
+[28/Jan/2020:15:49:29 BDT]    IMQ_HOME=/home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/mq
+[28/Jan/2020:15:49:29 BDT] IMQ_VARHOME=/home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/glassfish/domains/domain1/imq
+[28/Jan/2020:15:49:29 BDT] Linux 5.3.0-28-generic amd64 l-bkash-2029 (8 cpu) towfiq106
+[28/Jan/2020:15:49:29 BDT] Java Heap Size: max=465920k, current=342016k
+[28/Jan/2020:15:49:29 BDT] Arguments: -port 7676 -name imqbroker -nobind -imqhome /home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/mq -varhome /home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/glassfish/domains/domain1/imq -libhome /home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/mq/lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+[28/Jan/2020:15:49:29 BDT] JMSRA BrokerProps: imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.service.activate=jmsdirect, imq.imqcmd.password=*****, imq.jmsra.managed=true, imq.cluster.nowaitForMasterBroker=true
+[28/Jan/2020:15:49:29 BDT] Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, imq.log.console.output=NONE, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.portmapper.bind=false
+[28/Jan/2020:15:49:29 BDT] Embedded Broker 
+[28/Jan/2020:15:49:29 BDT] [B1060]: Loading persistent data...
+[28/Jan/2020:15:49:29 BDT] Using built-in file-based persistent store: /home/towfiq106/workspace/glassfish/glassfish-3.1.2.2/glassfish/domains/domain1/imq/instances/imqbroker/
+[28/Jan/2020:15:49:29 BDT] WARNING Existing file: incompleteTxnStorehas older cookie version than current version. Current version = 1. Original file version = 0
+[28/Jan/2020:15:49:29 BDT] [B1041]: Cluster initialization successful.
+[28/Jan/2020:15:49:29 BDT] new transaction log enabled
+[28/Jan/2020:15:49:29 BDT] sync writes to disk = false
+[28/Jan/2020:15:49:29 BDT] logNonTransactedMsgSend = false
+[28/Jan/2020:15:49:29 BDT] logNonTransactedMsgAck = false
+[28/Jan/2020:15:49:29 BDT] [B1392]: Opening transaction log with file mode rw, maximum size 10,485,760 bytes
+[28/Jan/2020:15:49:29 BDT] [B1136]: Processing stored transactions
+[28/Jan/2020:15:49:29 BDT] [B1390]: Loading of transactions has been successfully completed  
+[28/Jan/2020:15:49:29 BDT] [B1013]: Auto Creation of Queues is enabled
+[28/Jan/2020:15:49:29 BDT] [B1144]: Creating Dead Message Queue
+[28/Jan/2020:15:49:29 BDT] [B1158]: Administrator has created destination mq.sys.dmq [Queue]
+[28/Jan/2020:15:49:29 BDT] [B1239]: Using platform MBean server
+[28/Jan/2020:15:49:29 BDT] JESMF classes not present - JESMF support will not be enabled.
+[28/Jan/2020:15:49:29 BDT] JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://l-bkash-2029/jndi/rmi://l-bkash-2029:8686/l-bkash-2029/7676/jmxrmi
+[28/Jan/2020:15:49:29 BDT] [B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+[28/Jan/2020:15:49:29 BDT] [B1227]: Using file user repository for admin service connection authentication
+[28/Jan/2020:15:49:29 BDT] [B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+[28/Jan/2020:15:49:29 BDT] [B1227]: Using file user repository for jms service connection authentication
+[28/Jan/2020:15:49:29 BDT] [B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+[28/Jan/2020:15:49:29 BDT] [B1227]: Using file user repository for mqdirect2 service connection authentication
+[28/Jan/2020:15:49:29 BDT] [B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+[28/Jan/2020:15:49:29 BDT] [B1227]: Using file user repository for jmsdirect service connection authentication
+[28/Jan/2020:15:49:29 BDT] [B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:37729 ] with min threads 1 and max threads of 1 
+[28/Jan/2020:15:49:29 BDT] [B1228]: Cluster ping interval is 60 seconds
+[28/Jan/2020:15:49:29 BDT] [B1039]: Broker "imqbroker@l-bkash-2029:7676" ready.
+[28/Jan/2020:15:49:30 BDT] JMX Connection Open: jmxrmi, connection ID: rmi://10.21.114.247  1, Count=1
+[28/Jan/2020:15:49:30 BDT] JMX Connection Close: jmxrmi, connection ID: rmi://10.21.114.247  1, Count=0
+[28/Jan/2020:17:29:42 BDT] [B1047]: Shutting down broker...[BrokerProcess]
+[28/Jan/2020:17:29:42 BDT] [B1077]: Broadcast good-bye to all connections ...
+[28/Jan/2020:17:29:42 BDT] [B1078]: Flushing good-bye messages ...
+[28/Jan/2020:17:29:42 BDT] [B1007]: Stopping Service admin with protocol tcp(host = *, port=0, mode=dedicated)
+[28/Jan/2020:17:29:42 BDT] [B1007]: Stopping Service jmsdirect with protocol 
+[28/Jan/2020:17:29:42 BDT] [B1007]: Stopping Service mqdirect2 with protocol none
+[28/Jan/2020:17:29:42 BDT] [B1007]: Stopping Service jms with protocol tcp(host = *, port=0, mode=dedicated)
+[28/Jan/2020:17:29:42 BDT] JMX Connector Server jmxrmi stopped successfully
+[28/Jan/2020:17:29:46 BDT] [B1048]: Shutdown of broker complete.

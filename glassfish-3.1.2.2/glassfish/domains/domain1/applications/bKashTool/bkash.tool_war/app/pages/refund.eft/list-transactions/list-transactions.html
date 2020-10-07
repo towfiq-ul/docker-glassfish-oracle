@@ -1,0 +1,81 @@
+<div ng-controller="listTransactionsController as listTransaction" style='overflow-x: auto'>
+    <!--Message : {{balanceHistory.message}}--> 
+
+    <br/>
+    <div id="tabContent">
+        <label id="bodyParagraph">Select Filter &nbsp;</label>
+        <select name="bank" id="bank" ng-model='listTransaction.bank'>
+            <option value="">All</option>
+            <optgroup label="Slot">
+                <option value="Slot 1">Slot 1</option>
+                <option value="Slot 2">Slot 2</option>
+                <option value="Slot 3">Slot 3</option>
+                <option value="Slot 4">Slot 4</option>
+                <option value="Slot 5">Slot 5</option>
+            </optgroup>
+            <optgroup label="Status">
+                <option value="printReady">Print Ready</option>
+                <option value=".pdf">Printed</option>
+            </optgroup>
+            <optgroup label="Banks">
+                <option value="BRAC BANK LTD.">BRAC BANK LTD.</option>
+                <!--<option value="BEFTN BRAC BANK LTD.">BEFTN BRAC BANK LTD.</option>-->
+                <option value="THE CITY BANK LTD.">THE CITY BANK LTD.</option>
+                <!--<option value="RTGS THE CITY BANK LTD.">RTGS THE CITY BANK LTD.</option>-->
+                <option value="MUTUAL TRUST BANK LTD.">MUTUAL TRUST BANK LTD.</option>  
+
+                <option value="UNITED COMMERCIAL BANK LTD.">UNITED COMMERCIAL BANK LTD.</option>                    
+                <option value="SOUTHEAST BANK LTD.">SOUTHEAST BANK LTD.</option>                    
+                <option value="MERCANTILE BANK LTD.">MERCANTILE BANK LTD.</option>                    
+                <option value="JAMUNA BANK LTD.">JAMUNA BANK LTD.</option>                    
+                <option value="EASTERN BANK LTD.">EASTERN BANK LTD.</option>                    
+                <option value="ONE BANK LTD.">ONE BANK LTD.</option>                    
+                <option value="NATIONAL CREDIT & COMMERCE BANK LTD.">NATIONAL CREDIT & COMMERCE BANK LTD.</option>                
+                <option value="AGRANI BANK LTD.">AGRANI BANK LTD.</option>                    
+                <option value="DHAKA BANK LTD.">DHAKA BANK LTD.</option>                    
+                <option value="TRUST BANK LTD.">TRUST BANK LTD.</option>                    
+                <option value="SONALI BANK LTD.">SONALI BANK LTD.</option>                    
+            </optgroup>
+
+        </select>
+        <label id="bodyParagraph">Custom Filter &nbsp;</label><input type="text" ng-model="searchCustom">
+        <input type="submit" value="Export Data" id="btnCallWebService" id="btnCallWebService" ng-click="listTransaction.exportReport()"/>
+    </div>
+
+    <br/><br/>
+    <table class="reference">
+        <tr>
+            <th>Serial No</th>
+            <th>Refund No</th>
+            <th>MA Wallet</th>
+            <th>Trx Ref</th>
+            <th>Amount</th>
+            <th>Bank Account Name</th>
+            <th>Bank Account Number</th>
+            <th>Bank Name</th>
+            <th>Branch Name</th>
+            <!--<th>Issue Date</th>-->
+            <th>Source Bank Name</th>
+            <th>Upload Date</th>
+            <th>Slot No</th>
+            <th>Status</th>
+        </tr>
+
+        <tr ng-repeat="x in listTransaction.queueData.refunds | filter:listTransaction.bank | filter:searchCustom">
+            <td>{{$index +1}}</td>
+            <td>{{x.refundNo}}</td>
+            <td>{{x.maWalletNumber}}</td>
+            <td>{{x.trxRef}}</td>
+            <td>{{x.requestedAmountNumeric}}</td>
+            <td>{{x.bankAccountName}}</td>
+            <td>{{x.bankAccountNumber}}</td>
+            <td>{{x.bankname}}</td>
+            <td>{{x.branch}}</td>
+            <!--<td>{{x.issueDate}}</td>-->
+            <td>{{x.sourceBankName}}</td>
+            <td>{{x.uploadDate}}</td>
+            <td>{{x.slotNo}}</td>
+            <td>{{x.status}}</td>
+        </tr>
+    </table>
+</div>

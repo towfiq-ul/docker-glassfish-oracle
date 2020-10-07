@@ -1,0 +1,39 @@
+<div ng-controller="generateFilesController as generateFiles">
+       <br/>
+    <div id="tabContent">
+        <label id="bodyParagraph">Select Refund Slot &nbsp;</label>
+        <select name="slot_no" id="slot_no" ng-model='generateFiles.slot_no'>
+            <option value="Slot_1">Slot 1</option>
+            <option value="Slot_2">Slot 2</option>
+            <option value="Slot_3">Slot 3</option>
+            <option value="Slot_4">Slot 4</option>
+            <option value="Slot_5">Slot 5</option>
+        </select>
+        <input type="submit" value="Generate Files" id="btnCallWebService" name="btnCallWebService" ng-click="generateFiles.generateFiles()"/><br/><br/>
+    </div>
+    <div>
+        <p id="bodyParagraph">File Generation Status</p>
+        <div id="responsediv">
+            <label id="responses">{{generateFiles.status}}</label>
+        </div>
+    </div>
+       <br/>
+    <div id="tabContent">
+        <label id="bodyParagraph">Sonali Bank Charge Files &nbsp;</label>
+        <select name="slot_no" id="slot_no" ng-model='generateFiles.chargeSlot_no'>
+            <option value="Slot_1">Slot 1</option>
+            <option value="Slot_2">Slot 2</option>
+            <option value="Slot_3">Slot 3</option>
+            <option value="Slot_4">Slot 4</option>
+            <option value="Slot_5">Slot 5</option>
+        </select>
+        <input type="submit" value="Generate Files" id="btnCallWebService" name="btnCallWebService" ng-click="generateFiles.generateChargeFiles()"/><br/><br/>
+    </div>
+    <div>
+        <p id="bodyParagraph">Charge File Generation Status</p>
+        <div id="responsediv">
+            <label id="responses">{{generateFiles.chargeStatus}}</label>
+        </div>
+    </div>
+       <br/>
+</div>

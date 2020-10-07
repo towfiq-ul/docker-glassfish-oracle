@@ -1,0 +1,92 @@
+<script type="text/javascript" src="resources/js/history_rm_dm.js"></script>
+<script type="text/javascript">
+    $(".dp").datepicker({minDate: "-1M", maxDate: "+0D", dateFormat: "dd-mm-yy"});
+</script>
+<div id="report_div_rm" style="margin-bottom: 10px">
+    <p>RM History Data</p>
+    <label for="merchantCode">Merchant Code</label>
+    <input type="text" name="merchantCode" id="merchantCode" placeholder="Merchant Code" value=""/>
+    <label for="DateRange">OR Date Range</label>
+    <input autocomplete="off" readonly="readonly" class="dp" name="txt_from_date" id="txt_from_date" type="text" placeholder="from date" required="Required" >
+    <input autocomplete="off" readonly="readonly" class="dp" name="txt_to_date" id="txt_to_date" type="text" placeholder="to date" required="Required" >
+    <button id="searchReportRm" role="button" aria-disabled="false">
+        <span class="ui-button-text">Search Rm Data</span>
+    </button>
+</div>
+
+<div id="reportTableDIVRM" style="overflow: auto">
+    <table class="reference" style="width: 100%;" id="report_table_rm">
+        <tbody>
+            <tr>
+                <th>MerchantCode</th>
+                <th>MerchantId</th>
+                <th>ServiceFee</th>
+                <th>MerchantName</th>
+                <th>BankName</th>
+                <th>BranchName</th>
+                <th>BankAccountName</th>
+                <th>BankAccountNo</th>
+                <th>MerchantType</th>
+                <th>SubLedger</th>
+                <th>RoutingNumber</th>
+                <th>RequestType</th>
+                <th>RequestBy</th>
+                <th>RequestOn</th>
+                <th>CheckedBy</th>
+                <th>CheckedOn</th>
+                <th>Status</th>
+            </tr>
+        </tbody>
+    </table>
+    <h3 id="no_data_rm"></h3>
+</div> <br/><br/>
+
+
+
+
+
+<div id="report_div_dm" style="margin-bottom: 10px">
+    <p>DM History Data</p>
+    <label for="merchantWallet">Merchant Account</label>
+    <input type="text" name="merchantWallet" id="merchantWallet" placeholder="Merchant Account" value=""/>
+    <label for="DateRange">OR Date Range</label>
+    <input autocomplete="off" readonly="readonly" class="dp" name="txt_from_date_dm" id="txt_from_date_dm" type="text" placeholder="from date" required="Required" >
+    <input autocomplete="off" readonly="readonly" class="dp" name="txt_to_date_dm" id="txt_to_date_dm" type="text" placeholder="to date" required="Required" >
+    <button id="searchReportDm" role="button" aria-disabled="false">
+        <span class="ui-button-text">Search Dm Data</span>
+    </button>
+</div>
+
+<div id="reportTableDIVDM" style="overflow: auto">
+    <table class="reference" style="width: 100%;" id="report_table_dm">
+        <tbody>
+            <tr>
+                <th>MerchantAccount</th>
+                <th>CoFeePerc</th>
+                <th>CoFeePercBy</th>
+                <th>bKShareFeePerc</th>
+                <th>bKShareFeePercBy</th>
+                <th>MeShareFeePerc</th>
+                <th>MeShareFeePercBy</th>
+                <th>ServFeeFeePerc</th>
+                <th>ServFeeFeePercBy</th>
+                <th>AitFeePerc</th>
+                <th>AitFeePercBy</th>
+                <th>MerAitFeePerc</th>
+                <th>MerAitFeePercBy</th>
+                <th>TotCalcFr</th>
+                <th>TotCalcFrAitServFee</th>
+                <th>BalanceCalcFr</th>
+                <th>RequestType</th>
+                <th>RequestBy</th>
+                <th>RequestOn</th>
+                <th>CheckedBy</th>
+                <th>CheckedOn</th>
+                <th>Status</th>
+            </tr>
+        </tbody>
+    </table>
+    <h3 id="no_data_dm"></h3>
+</div>
+
+<!--</center>-->

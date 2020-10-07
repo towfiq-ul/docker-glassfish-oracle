@@ -1,0 +1,21 @@
+<script type="text/javascript">
+//    $(".dp").datepicker({minDate: "-30D", maxDate: "+0D", dateFormat: "yy-mm-dd"});
+    $(".dp").datepicker({minDate: "-180D", maxDate: "+0D", dateFormat: "yy-mm-dd"});
+    $(".dp2").datepicker({minDate: "-180D", maxDate: "+0D", dateFormat: "yy-mm-dd"});
+</script>
+
+<div ng-controller="refundHistoryController as refundHistory">
+    
+<!--    <label id="bodyParagraph"> Date &nbsp;</label> <input autocomplete="off" class="dp" type="text" value="{{refundHistory.today}}" id="fromDate" name="fromDate" readonly="readonly"/>
+    <input type="submit" value="Download File" id="btnCallWebService" name="btnCallWebService" ng-click="refundHistory.downloadFiles()"/><br/><br/>-->
+    <p id="bodyParagraph">Refund History</p>
+    <label id="bodyParagraph2">From Date &nbsp;</label> <input autocomplete="off" class="dp" type="text" value="{{refundHistory.today}}" id="fromDate" name="fromDate" readonly="readonly"/>
+    <label id="bodyParagraph2">To Date &nbsp;</label> <input autocomplete="off" class="dp" type="text" value="{{refundHistory.today}}" id="toDate" name="toDate" readonly="readonly"/>
+    <input type="submit" value="Download File" id="btnCallWebService" name="btnCallWebService" ng-click="refundHistory.downloadFiles1()"/><br/><br/>
+    
+    <p id="bodyParagraph">List Transaction</p>
+    <label id="bodyParagraph2">From Date &nbsp;</label> <input autocomplete="off" class="dp2" type="text" value="{{refundHistory.today}}" id="fromDate2" name="fromDate2" readonly="readonly"/>
+    <label id="bodyParagraph2">To Date &nbsp;</label> <input autocomplete="off" class="dp2" type="text" value="{{refundHistory.today}}" id="toDate2" name="toDate2" readonly="readonly"/>
+    <input type="submit" value="Download File" id="btnCallWebService" name="btnCallWebService2" ng-click="refundHistory.downloadFiles2()"/><br/><br/>
+    
+</div>

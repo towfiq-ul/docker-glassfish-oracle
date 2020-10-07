@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Servlet 3.0//EN" "http://glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<glassfish-web-app error-url="loginError.html">
+  <!-- role mapping -->
+  <context-root>/report_portal</context-root>
+  <security-role-mapping>
+    <role-name>ADMINISTRATOR</role-name>
+    <group-name>ADMINISTRATOR</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>DISTRIBUTOR</role-name>
+    <group-name>DISTRIBUTOR</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>BSA</role-name>
+    <group-name>BSA</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>AGENT</role-name>
+    <group-name>AGENT</group-name>
+  </security-role-mapping>
+  <!-- default -->
+  <security-role-mapping>
+    <role-name>BSO</role-name>
+    <group-name>BSO</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>SND</role-name>
+    <group-name>SND</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>FINANCE</role-name>
+    <group-name>FINANCE</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>COMPLIANCE</role-name>
+    <group-name>COMPLIANCE</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>QC</role-name>
+    <group-name>QC</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>SalesOps</role-name>
+    <group-name>SalesOps</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>RSM</role-name>
+    <group-name>RSM</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>SM</role-name>
+    <group-name>SM</group-name>
+  </security-role-mapping>
+  <security-role-mapping>
+    <role-name>TM</role-name>
+    <group-name>TM</group-name>
+  </security-role-mapping>
+  <class-loader delegate="true"/>
+  <jsp-config>
+    <property name="keepgenerated" value="true">
+      <description>Keep a copy of the generated servlet class' java code.</description>
+    </property>
+  </jsp-config>
+</glassfish-web-app>

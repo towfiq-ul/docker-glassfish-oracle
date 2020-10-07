@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Tue Jan 28 16:15:52 BDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+

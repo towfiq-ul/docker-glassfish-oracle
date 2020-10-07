@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:component-data xmlns:ns1="http://openoffice.org/2001/registry" xmlns:ns3="http://openinstaller.org/config/V1" ns1:readonly="true" ns1:finalized="true" ns1:package="org.openinstaller.PageFlow">
+    <node ns1:name="Mode">
+        <prop ns1:type="xs:string" ns1:name="CONFIG_MODE">
+            <value>EXPRESS_MODE</value>
+        </prop>
+        <prop ns1:type="xs:string-list" ns1:name="ACTIVE_MODES_LIST">
+            <value>[EXPRESS, DO_NOT_SHOW_UPGRADE, CREATE_DOMAIN, BASIC_USER, DO_NOT_SHOW_UPGRADE]</value>
+        </prop>
+    </node>
+</ns1:component-data>

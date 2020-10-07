@@ -1,0 +1,51 @@
+<script type="text/javascript" src="resources/js/all_user_admin.js"></script>
+
+<h2>All User List</h2>
+<div id="all_user" style="margin-bottom: 10px">
+    <select name="layer_id" id="layer_id">
+        <option value="%%">All User</option>
+        <option value="10">Small Merchant</option>
+        <option value="11">Single RM</option>
+        <option value="21">RM Head Office</option>
+        <option value="22">RM Branch Office</option>
+        <option value="66">Corp. Client Single</option>
+        <option value="61">Corp. Client HO</option>
+        <option value="62">Corp. Client BO</option>
+        <option value="67">Enterprise Merchant</option>
+        <option value="41">Disbursement Merchant</option>
+    </select>
+    <input type="text" name="searchProfileUID" id="searchProfileUID" placeholder="profile uid" value=""/>
+    <button id="searchUser" role="button" aria-disabled="false">
+        <span class="ui-button-text">Search User</span>
+    </button>
+
+    <button id="exportUser" role="button" aria-disabled="false">
+        <span class="ui-button-text">Export User List</span>
+    </button>
+    <br/>
+    <div id="UserTableDIV" style='overflow-x: auto'>
+        <table class="reference" style="width: 1500px;" id="user_table">
+            <tbody>
+                <tr>
+                    <th>Serial No</th>
+                    <th>Profile UID</th>
+                    <th>User Name</th>
+                    <th >Merchant/Outlet Name</th>
+                    <th>Wallet No</th>
+                    <th>Cash Settlement</th>
+                    <th>Layer Definitoin</th>
+                    <th>Added By</th>
+                    <th>Added On</th>
+                    <th>Edit</th>
+                    <th>Remove</th>
+                    <th>Password Reset</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--Dialogue Boxes Here-->
+<div id="ui-layout-table" style="width: 850px; min-height: 38px; height: 239px;">
+
+</div>

@@ -1,0 +1,126 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" ng-app="app">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta name="robots" content="all, follow">
+                <meta name="description" content="">
+                    <meta name="keywords" content="">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                        <title>bKash Tool</title>
+                        <link rel="shortcut icon" href="app/assets/img/bkash.ico"/>
+                        <link href="app/assets/css/bkash_tool.css" rel="stylesheet" type="text/css" media="screen">
+                            <link href="app/assets/alertify/alertify.core.css" rel="stylesheet" type="text/css" media="screen"/>
+                            <link href="app/assets/alertify/alertify.default.css" rel="stylesheet" type="text/css" media="screen"/>
+                            <link href="app/assets/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+                            <script type="text/javascript" src="app/assets/alertify/alertify.min.js"></script>
+                            <script type="text/javascript" src="app/assets/js/jquery-1.9.1.js"></script>
+                            <!--<script src="app/assets/js/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>-->
+                            <script src="app/assets/js/angular.min.js"></script>
+                            <script src="app/assets/js/angular-ui-router.js"></script>
+                            <script src="app/assets/js/jquery.table2excel.js"></script>
+                            <!--jTable Resources-->
+                            <script src="app/assets/jtable/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+                            <link href="app/assets/jtable/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+                            <link href="app/assets/jtable/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
+                            <script src="app/assets/jtable/jquery.jtable.js" type="text/javascript"></script>
+
+                            <!-- Bootstrap core CSS -->
+                            <link href="app/assets/css/bootstrap.min.css" rel="stylesheet">
+                                <script type="text/javascript" src="app/assets/js/bootstrap.min.js"></script>
+
+
+                                <script src="app/assets/js/index.js"></script>
+
+                                </head>
+                                <body>
+                                    <div id="main" ng-controller="mainController as main">
+                                        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                                            <div class="container">
+                                                <div class="navbar-header">
+                                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                                                        <span class="sr-only">Toggle navigation</span>
+                                                        <span class="icon-bar">
+                                                            <img class="img-responsive" src="app/assets/img/bkash_logo.png" width="30" height="25" alt=" ">
+                                                        </span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                    </button>
+                                                    <a class="navbar-brand" rel="home" href="/bkash.tool" title="Home">
+                                                        <img style="max-width:70px; margin-top: -7px;" src="app/assets/img/bkash_logo.png">
+                                                    </a>                    
+                                                </div>
+                                                <div id="navbar" class="navbar-collapse collapse">
+                                                    <ul class="nav navbar-nav" id="menu_ul">
+                                                        <!--                                                        <li><a href="/">Home</a></li>-->
+                                                    </ul>
+                                                    <ul class="nav navbar-nav navbar-right">
+                                                        <li id="user_name"></li>
+                                                        <li class="dropdown">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li class="disabled"><a href="#">Change Password</a></li>
+                                                                <li role="separator" class="divider"></li>
+                                                                <li><a href="logout">Logout</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>          
+                                                </div>
+                                            </div>
+                                        </nav>
+
+
+
+
+                                        <div id="content" style="margin-left: 10%;margin-top: 75px; min-height: 500px;margin-right: 10%">
+
+
+                                            <div ui-view id="injectedDiv"></div>
+
+                                            <div id="no_menu"></div>
+                                            <div id="no_data"></div>
+                                        </div>
+
+                                        <div id="footer">
+                                            <p>bKash Limited &copy; 2015-2016</p>
+                                        </div>
+                                    </div>
+                                    <!--Dialogue Boxes Here-->
+                                    <!--<div id="ui-layout-table" style="width: 850px; min-height: 38px; height: 239px;"></div>-->
+
+                                    <script src="app/app.module.js" type="text/javascript"></script>
+                                    <script src="app/app.routes.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/main/mainController.js" type="text/javascript"></script>
+                                    <script src="app/pages/main/mainService.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/refund.eft/generate-files/generateFilesController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/generate-files/generateFilesService.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/refund.eft/schedule-refund/scheduleRefundController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/schedule-refund/scheduleRefundService.js" type="text/javascript"></script>
+
+
+                                    <script src="app/pages/refund.eft/qcash-report/qcashReportController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/qcash-report/qcashReportService.js" type="text/javascript"></script>
+                                    
+                                    
+                                    <script src="app/pages/refund.eft/sftp-files/sftpFilesController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/sftp-files/sftpFilesService.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/refund.eft/list-transactions/listTransactionsController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/list-transactions/listTransactionsService.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/refund.eft/modify-transactions/modifyTransactionsController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/modify-transactions/modifyTransactionsService.js" type="text/javascript"></script>
+
+                                    <script src="app/pages/refund.eft/refund-history/refundHistoryController.js" type="text/javascript"></script>
+                                    <script src="app/pages/refund.eft/refund-history/refundHistoryService.js" type="text/javascript"></script>
+
+                                     <script src="app/pages/refund.eft/msf-southeast/msfReportController.js" type="text/javascript"></script>
+                                     <script src="app/pages/refund.eft/msf-southeast/msfReportService.js" type="text/javascript"></script>
+                                    
+                                    
+                                    <script src="app/pages/user-management/userManagementController.js" type="text/javascript"></script>
+                                    <script src="app/pages/user-management/userManagementService.js" type="text/javascript"></script>
+
+                                </body>
+                                </html>

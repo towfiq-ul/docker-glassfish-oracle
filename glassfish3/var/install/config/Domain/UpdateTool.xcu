@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:component-data xmlns:ns1="http://openoffice.org/2001/registry" xmlns:ns3="http://openinstaller.org/config/V1" ns1:readonly="true" ns1:finalized="true" ns1:package="com.sun.PH">
+    <node ns1:name="Configuration">
+        <prop ns1:type="xs:boolean" ns1:name="BOOTSTRAP_UPDATETOOL">
+            <value>true</value>
+        </prop>
+        <prop ns1:type="xs:boolean" ns1:name="ALLOW_UPDATE_CHECK">
+            <value>true</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="PROXY_HOST">
+            <value></value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="PROXY_PORT">
+            <value></value>
+        </prop>
+    </node>
+</ns1:component-data>

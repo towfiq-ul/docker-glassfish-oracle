@@ -1,0 +1,58 @@
+<!--<script src="app/pages/transaction-status-check/fileList.js" type="text/javascript"></script>-->
+<div ng-controller="sftpFilesController as sftpFiles">
+       <br/>
+    <div id="tabContent">
+        <label id="bodyParagraph">Select Refund Slot &nbsp;</label>
+        <select name="slot_no" id="slot_no" ng-model='sftpFiles.slot_no'>
+            <option value="Slot_1">Slot 1</option>
+            <option value="Slot_2">Slot 2</option>
+            <option value="Slot_3">Slot 3</option>
+            <option value="Slot_4">Slot 4</option>
+            <option value="Slot_5">Slot 5</option>
+        </select>
+        <input type="submit" value="SFTP Files" id="btnCallWebService" name="btnCallWebService" ng-click="sftpFiles.addLifting()"/><br/><br/>
+    </div>
+    <div>
+        <p id="bodyParagraph">File SFTP Status</p>
+        <div id="responsediv">
+            <label id="responses">{{sftpFiles.status}}</label>
+        </div>
+    </div>
+    
+    
+    
+<!--    <form method="POST" name="statusCheckFormName" id="statusCheckFormId" enctype="multipart/form-data">
+        <table>
+            <tr style="height: 40px">
+                <td>
+                    <label>Select Slot</label>
+                </td>
+                <td>
+                    <select name="slot_no" id="slot_no" ng-model='sftpFiles.slot_no'>
+                        <option value="Slot_1">Slot 1</option>
+                        <option value="Slot_2">Slot 2</option>
+                        <option value="Slot_3">Slot 3</option>
+                        <option value="Slot_4">Slot 4</option>
+                        <option value="Slot_5">Slot 5</option>
+                    </select><br/>
+                </td>
+            </tr>
+            <tr style="height: 40px">
+                <td>
+                    <label>Select File</label>   
+                </td>
+                <td>   
+                    <input type="file" name="files" id="file" multiple="multiple" style="border-style:ridge"/>
+                    <div id="fileListPrint"></div>
+                </td><br/>
+            </tr>
+            <tr style="height: 40px">
+                <td></td>
+                <td>
+                    <input type="submit" value="Create" id="btnCallWebService" name="btnCallWebService" ng-click="sftpFiles.addLifting()"/><br/><br/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2 id="createMsg"></h2>-->
+</div>

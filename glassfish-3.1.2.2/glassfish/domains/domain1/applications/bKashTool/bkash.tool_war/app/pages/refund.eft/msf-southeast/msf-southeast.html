@@ -1,0 +1,16 @@
+<div ng-controller="msfReportController as listmsfReport" style='overflow-x: auto'>
+        
+    
+    
+    <div align="center" >
+        
+        <div style="width: 30%">
+        <div style="margin-bottom: 20px">MSF Report link (click for download) </div>
+       
+    <ul ng-repeat="item in listmsfReport.reportlist" style="list-style-type: circle;margin-top:5px;text-align:left">
+        <li><a href="{{item.url}}">{{item.link}}</a></li>
+    </ul>
+<!--    
+        <input type="submit" value="TestCall" id="btnCallWebService" name="btnCallWebService" ng-click="listmsfReport.getmsfreport()"/>-->
+        </div>
+</div>

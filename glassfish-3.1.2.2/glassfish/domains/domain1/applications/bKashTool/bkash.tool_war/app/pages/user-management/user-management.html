@@ -1,0 +1,64 @@
+<div ng-app="app">
+    <div ng-controller="userManagementController as user">
+        <!--Message : {{user.message}}--> 
+        <fieldset style="width: 400px; height: 200px">
+            <legend>
+                <h3 id="bodyParagraph">Add User</h3>
+            </legend>
+
+            <form name="addUserFormName" id="addUserFormId" method="POST">
+
+                <table>
+                    <tr style='height:40px'>
+                        <td>
+                            Enter User Name(*)
+                        </td>
+                        <td>       
+                            <input type="text" id="userName" name="userName" ng-model="user.userName" />
+                        </td>
+                    </tr>
+                    <tr style='height:40px'>
+                        <td>
+                            Select Role(*)
+                        </td>
+                        <td>
+                            <select name="selectedRole" id="selectedRole"
+                                    ng-options="option.roleName for option in user.userInfo.role track by option.roleId"
+                                    ng-model="data.selectedOption"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Add User" id="btnCallWebService" name="createRequestButton" ng-click="user.createUser()"/>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </fieldset>
+
+        <h2 id="createUserMsg"></h2><br/>
+
+        <h3 id="bodyParagraph">User List</h3>
+        <table class="reference">
+            <tr>
+                <th>Email</th>
+                <th>Role Name</th>
+                <th>RemoveUser</th>
+            </tr>
+            <tr ng-repeat="x in user.userInfo.user">
+                <td>{{x.email}}</td>
+                <td>{{x.roleName}}</td>
+                <td>
+                    <input type="submit" value="Remove" id="removeUserButton" name="removeUserButton" ng-click="user.removeUser(x.email)"/>
+                </td>
+            </tr>
+        </table><br/>
+
+        <div id="ui-layout-table"></div>
+
+
+
+    </div>
+</div>

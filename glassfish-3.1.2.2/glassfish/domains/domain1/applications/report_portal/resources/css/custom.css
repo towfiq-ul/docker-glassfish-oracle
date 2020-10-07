@@ -1,0 +1,32 @@
+input,select,textArea
+    {
+        margin-left: 30px;
+        border-width: 3px;
+        padding: 11px;
+        box-shadow: none;
+        /*color: #494949;*/
+        border: 2px solid #990000;
+        border-radius: 5px;
+        font-size: 15px;
+        display: block;
+        /*height: 10px;*/
+    }
+    label{
+        font-size: 15px;
+    }
+    tr{
+        height: 60px;
+    }
+    button{
+        margin-left: 30px;
+        border-width: 3px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 11px;
+        box-shadow: none;
+        display: block;
+        background-color: ghostwhite;
+    }
+    #text_red{
+        color: red;
+    }   

@@ -1,0 +1,39 @@
+<link href="resources/css/custom.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<script type="text/javascript">
+    function validateForm() {
+        var y = document.forms["uploadForm"]["file"].value;
+        // console.log('Select: ' + x + ' File: ' + y);
+        if (y === null || y === "") {
+            alert("Select File");
+            return false;
+        }
+        if (y.toLowerCase().indexOf(".xlsx") >= 0) {
+
+        }
+        else {
+            alert("Select .xlsx File Only");
+            return false;
+        }
+    }
+</script>
+<form name="uploadForm" action="BulkAddRmData" method="post" enctype="multipart/form-data" onsubmit="return validateForm();">
+    <table>
+        <tbody>
+            <tr>
+                <td style="text-align:right">
+                    <label for="file" ><b>Select File(*.xlsx)</b></label>
+                </td>
+                <td>
+                    <input type="file" name="file" />
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                </td>
+                <td>
+                    <input type="submit" value="Upload RM Data" />
+                </td>
+            </tr>
+        </tbody></table>
+</form>

@@ -1,0 +1,47 @@
+<link href="resources/css/custom.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<fieldset style="width: 500px; height: 300px">
+    <legend>
+        <h3 style="background-color: darkgray;">Password Change</h3>
+    </legend>
+    <form action="#" method="post">
+        <p>*Password Must Contain at least 8 character including the following<br/>At least [1 small letter,1 capital letter,1 number and 1 special character]</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="currentPassword" style="float:right"><b>Current Password</b></label>
+                    </td>
+                    <td>
+                        <input id="currentPassword" name="currentPassword" type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="newPassword" style="float:right"><b>New Password</b></label>
+                    </td>
+                    <td>
+                        <input id="newPassword" name="newPassword" type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="confirmPassword" style="float:right"><b>Confirm Password</b></label>
+                    </td>
+                    <td>
+                        <input id="confirmPassword" name="confirmPassword" type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="button" onclick="ChangePassword();">Change Password</button>
+                    </td>
+                </tr>
+
+            </tbody></table>
+
+
+    </form>
+
+</fieldset>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: towfiq106
+Build-Jdk: 1.7.0_242
+Class-Path: lib/dom4j-1.6.jar lib/gson-2.2.jar lib/icu4j-64.2.jar lib/
+ itextpdf-5.5.4.jar lib/jackson-annotations-2.10.0.jar lib/jackson-cor
+ e-2.10.0.jar lib/jackson-databind-2.10.0.jar lib/poi-3.11-20141221.ja
+ r lib/poi-ooxml-3.9.jar lib/poi-ooxml-schemas-3.9-20121203.jar lib/st
+ ax-api-1.0.1.jar lib/xmlbeans-2.6.0.jar
+Created-By: Apache Maven 3.6.1
+Archiver-Version: Plexus Archiver
+

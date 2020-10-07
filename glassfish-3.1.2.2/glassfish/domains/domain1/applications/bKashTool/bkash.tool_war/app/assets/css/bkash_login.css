@@ -1,0 +1,195 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /*font: 70% "Trebuchet MS", sans-serif;*/
+    /*font: .750em Arial, sans-serif;*/
+    font-family: Calibri;font-size: 9pt;
+}
+#footer p { font-size: .917em; text-align: center; margin:20px;}
+
+#header { width: 100%; height: 110px;}
+
+#sidebar{ position:absolute; padding: 0 0 0 10px; margin-top: 15px; }
+
+#content { border: 2px solid #e3e3e3; position: relative; margin-left: 240px; margin-top: 15px; min-height: 400px; }
+
+#content #injectedDiv {padding-left: 2% }
+
+#page_logo img{ margin-top: 15px; margin-left: 150px; }
+
+#app_name_login { position:absolute; font-size:30px; top: 10px;right: 150px; color: #e90159; }
+
+#app_name{ position:absolute; font-size:30px; margin-top: -110px; right: 150px; color: #e90159;}
+
+#user_div{ position:absolute; font-size:25px; margin-top: -45px; right: 150px; color: black; }
+
+#menu_bar_login { background-color : #e90159; width : 100%; height : 10px; }
+
+#menu_bar{ background-color : #e90159; width : 100%;height : 25px;}
+
+#logout_link{ margin-right:150px; font-size:18px; color:black; text-align:right; }
+
+#logout_link a{text-decoration:none;}
+#lg_out{color:white !important}
+#extra_space {color:#e90159 !important}
+#change_pass {color:white !important}
+
+#login_box { border: 1px solid #ccc; width:30%; margin-top:110px; margin-left:35%;}
+
+#login_headline{ margin-top:0px; width: 100%; height: 30px; background-color : #e90159; }
+
+#login_text{ font-size:20px; margin-left:10px; }
+
+ul { list-style-type: none; margin: 1px; padding: 1px; width: 220px; }
+
+#floatMenu li{ position: relative; padding-left: 11px; margin:0 0 3px 0; }
+
+li a { background: #e6e6ff; color: #000; display: block; line-height: 3.333em; padding: 0 10px 0 20px; text-decoration: none; }
+
+li a:hover { background-color: #e90159; color: white; }
+
+#hit_message_holder{ background: #e6e6ff; height:15px; }
+
+/* -- Old CSS -- */
+/* -- Box -- */
+.box { margin-bottom: 20px; border: 1px solid #ccc; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;  }
+.box .headlines,
+.box .bookmarks { margin: -1px 0 10px; height: 54px; text-align: center; background: 0 0 repeat-x; -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+.box .headlines h2 { display: block; float: left; font-size: 1.5em; padding-right: 40px; margin: 7px 0 0 5px; height: 49px; line-height: 32px; background: url(../img/bg-bookmark.gif) scroll top right; }
+.box .headlines h2 span { display: block; margin: 0; padding: 0 0 0 40px; height: 49px; background: no-repeat; }
+
+.box .bookmarks li          { margin: 0 20px 0 20px; float: left;  height: 49px; }      
+.box .bookmarks li a        { margin-top: 7px; float: left; display: block; height: 49px; line-height: 28px; color: #fff; text-decoration: none; }
+.box .bookmarks li.ui-state-default a { font-size: 1.167em; }
+.box .bookmarks li.ui-state-active    { display: block; float: left; padding-right: 40px; margin: 7px 0 0 5px; height: 49px; line-height: 32px; background: scroll top right; }
+.box .bookmarks li.ui-state-active a  { display: block; margin: 0; padding: 0 0 0 40px; color: #000; font-size: 1.5em; height: 49px; background: no-repeat; }
+.box .ui-tabs-hide { display: none !important; }
+
+.box .headlines .show-filter { float: right; margin-right: 10px; color: #fff; line-height: 38px; }  
+.box .headlines .help        { display: block; width: 24px; height: 24px; float: right; margin: 6px 10px 0 0; color: #fff; background: url(../img/ico/help.png) 0 0 no-repeat; }
+
+.box-content { overflow: hidden; margin: 25px 10px 15px; }
+
+.box-cols           { overflow: hidden; }
+.box-cols .box-col  { width: 48%; float: left; }
+.box-cols .box-last { float: right; }
+/* -- FormBox -- */
+.formBox                  { position: relative; padding-bottom: 10px; }
+.formBox fieldset         { padding: 0; margin: 0; border: none !important; }
+.formBox .clearfix        { overflow: hidden; width: 100%; padding-bottom: 15px; }
+.formBox .form-cols       { overflow: hidden; }
+.formBox .col1 .lab,
+.formBox .col2 .lab       { width: 28% !important; }
+.formBox .col1 .con,
+.formBox .col2 .con       { width: 69% !important; position: relative; }
+.formBox .lab             { width: 20% /*12%*/; float: left; font-weight: bold; color: #1a2e4d; padding: 5px 2% 0 0; }
+.formBox .lab span        { color: #CD0B1C; }
+.formBox .con             { width: 77% /*85%*/; float: right; position: relative; border: 1px solid #dadada; -webkit-border-radius: 5px; border-radius: 5px;  -moz-border-radius: 5px;  }
+.formBox .file .con,
+.formBox .checkbox .con   { background: none; border: none; }
+.formBox .select, 
+.formBox .input,
+.formBox .textarea        { width: 100% !important; float: left; padding: 4px 0; border: none; margin: 2px 0; background: transparent; }
+.formBox .textarea        { height: 90px; }
+
+.formBox .file .upload-file    { width: 300px !important; float: left; padding: 4px 0; border: none; margin: 2px 0; border: 1px solid #dadada; background: url(../img/bg-input.gif) 0 0 repeat-x; -webkit-border-radius: 5px; border-radius: 5px;  -moz-border-radius: 5px;  }
+.formBox .file .button-upload  { position: absolute; left: 310px; width: 99px; height: 29px; overflow: hidden;  background: url("../img/choose-file.gif") no-repeat scroll right center;  }
+
+.formBox .textarea-wysiwyg .con    { background-position: 0 27px; }
+
+
+.formBox input:focus.input,
+.formBox textarea:focus.textarea,
+.formBox select:focus.select { color: #000; }
+
+.formBox .error .con    { border: 1px solid #f5b6a3; background-image: url(../img/bg-input-error.gif); }
+
+.formBox .btn-submit      { border-top: 0px solid #e3e3e3; padding: 5px 0 0 15%;}
+.formBox .button          { float:right; margin-right: 3px; width: 99px; height: 26px; color: black; font-weight: bold; cursor: pointer; border: none; background-color: #e90159;}
+
+/* -- Form message -- */
+
+.form-message          { display: block; padding: 1px 20px 5px 30px; margin-bottom: 15px; border: 1px solid; -webkit-border-radius: 6px; border-radius: 6px; -moz-border-radius: 6px; }
+.form-message.success  { border-color: #a8f383; background: #e4ffd4 url(../img/ico/correct.gif) 10px 11px no-repeat; }
+.form-message.error    { border-color: #f3a48c; background: #ffded4 url(../img/ico/error.gif) 10px 11px no-repeat; }
+.form-message.warning  { border-color: #fbea81; background: #fff9d4 url(../img/ico/warning.gif) 10px 11px no-repeat; }
+.form-message.help  { border-color: #d8d0b4; background: #f8f4e8 url(../img/ico/help2.png) 10px 11px no-repeat; }
+.form-message p        { margin: 0 !important; }
+.form-message ul       { margin: 5px 0 0 20px; padding: 0; }
+.form-message ul li    { margin: 0; padding: 0; list-style: disc; font-size: 1em; line-height: 1.6em; }
+
+
+
+/*table class reference*/
+
+table.reference,table.tecspec{
+    border-collapse:collapse;width:100%;
+
+}
+
+table.reference tr:nth-child(odd)	{background-color:#f1f1f1;}
+table.reference tr:nth-child(even)	{background-color:#ffffff;}
+
+table.reference tr.fixzebra			{background-color:#f1f1f1;}
+
+table.reference th{
+    color:#ffffff;
+    background-color:#555555;
+    border:1px solid #555555;
+    /*padding:3px;*/
+    vertical-align:middle;
+    text-align:center;
+}
+
+table.reference th a:link,table.reference th a:visited{
+    color:#ffffff;
+}
+
+table.reference th a:hover,table.reference th a:active{
+    color:#EE872A;
+}
+
+table.reference td{
+    border:1px solid #d4d4d4;
+    padding:3px;
+    /*        padding-top:7px;
+            padding-bottom:7px;*/
+    vertical-align:middle;
+    text-align:center;
+}
+
+table.reference td.example_code
+{
+    vertical-align:bottom;
+}
+
+/*check balance*/
+
+#btnCallWebService{
+    background-color: antiquewhite;
+    font-size: 13pt;
+}
+
+#responses{
+    font-size: 17pt;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#bodyParagraph{
+    font-variant: small-caps;
+    font-size: 15pt;
+}
+
+
+input,select
+{
+
+    border-width: 2px;
+    box-shadow: none;
+    font-size: 15px;
+}
+label{
+    font-size: 15px;
+}

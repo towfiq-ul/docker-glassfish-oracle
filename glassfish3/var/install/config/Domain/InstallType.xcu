@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:component-data xmlns:ns1="http://openoffice.org/2001/registry" xmlns:ns3="http://openinstaller.org/config/V1" ns1:readonly="true" ns1:finalized="true" ns1:package="com.sun.install.L10nSelection">
+    <node ns1:name="Option">
+        <prop ns1:type="xs:string" ns1:name="INSTALL_AND_CONFIG">
+            <value>INSTALL_AND_CONFIG</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="INSTALL_ONLY">
+            <value>INSTALL_ONLY</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="CONFIG_ONLY">
+            <value>CONFIG_ONLY</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="CONFIGURATION_MODE">
+            <value>INSTALL_AND_CONFIG</value>
+        </prop>
+    </node>
+</ns1:component-data>

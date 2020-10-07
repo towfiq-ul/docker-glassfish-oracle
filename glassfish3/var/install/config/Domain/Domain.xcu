@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:component-data xmlns:ns1="http://openoffice.org/2001/registry" xmlns:ns3="http://openinstaller.org/config/V1" ns1:readonly="true" ns1:finalized="true" ns1:package="com.sun.PH">
+    <node ns1:name="Configuration">
+        <prop ns1:type="xs:string" ns1:name="DOMAIN_NAME">
+            <value>domain1</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="ADMIN_PORT">
+            <value>4848</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="HTTP_PORT">
+            <value>8080</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="ADMIN_USER">
+            <value>admin</value>
+        </prop>
+        <prop ns1:type="xs:boolean" ns1:name="CREATE_SERVICE">
+            <value>false</value>
+        </prop>
+        <prop ns1:type="xs:boolean" ns1:name="START_SERVER">
+            <value>false</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="STARTUP_TYPE">
+            <value>AUTOMATIC</value>
+        </prop>
+        <prop ns1:type="xs:string" ns1:name="SERVICE_NAME">
+            <value>domain1Service</value>
+        </prop>
+    </node>
+</ns1:component-data>

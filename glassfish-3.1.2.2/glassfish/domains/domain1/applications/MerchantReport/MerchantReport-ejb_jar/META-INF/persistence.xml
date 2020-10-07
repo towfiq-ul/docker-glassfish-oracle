@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="MerchantReport-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/merchantPool</jta-data-source>
+    <class>com.bkash.merchant.report.ejb.entities.ReportDef</class>
+    <class>com.bkash.merchant.report.ejb.entities.Properties</class>
+    <class>com.bkash.merchant.report.ejb.entities.Users</class>
+    <class>com.bkash.merchant.report.ejb.entities.ReportFields</class>
+    <class>com.bkash.merchant.report.ejb.entities.UserTree</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwlSmRetMerMst</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwlRetMstTemp</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwlDisMerStmt</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwlDisMerStmtTemp</class>
+    <class>com.bkash.merchant.report.ejb.entities.MstHistRm</class>
+    <class>com.bkash.merchant.report.ejb.entities.MstHistDm</class>
+    <class>com.bkash.merchant.report.ejb.entities.DmEntity</class>
+    <class>com.bkash.merchant.report.ejb.entities.DmAdditionalInfo</class>
+    <class>com.bkash.merchant.report.ejb.entities.AllUserEntity</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwbDisMerDtlRptCps</class>
+    <class>com.bkash.merchant.report.ejb.entities.DwbDisMerSummaryRptCps</class>
+    <class>com.bkash.merchant.report.ejb.entities.ReconciliationReportRequestEntity</class>
+    <class>com.bkash.merchant.report.ejb.entities.ReconciliationResponseEntity</class>
+    <class>com.bkash.merchant.report.ejb.entities.MerchantHierarchy</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+    <validation-mode>NONE</validation-mode>
+    <properties/>
+  </persistence-unit>
+</persistence>
