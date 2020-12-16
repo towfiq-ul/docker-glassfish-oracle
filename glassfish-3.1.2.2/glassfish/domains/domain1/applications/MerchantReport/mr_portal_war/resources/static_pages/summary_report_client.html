@@ -5,9 +5,10 @@
     $(".dp").datepicker({
         changeMonth: true,
         changeYear: true,
+        yearRange: '1990:+0',
         showButtonPanel: true,
-        minDate: "-6M",
-        maxDate: "+0D",
+        // minDate: "-6M",
+        // maxDate: "+0D",
         dateFormat: "yy-M",
 //                            onClose: function(dateText, inst) {
 //                                $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
@@ -35,6 +36,9 @@
 <input autocomplete="off" readonly="readonly" class="dp" name="txt_month" id="txt_month" type="text" placeholder="Select Month" required="Required" >
 <button id="pdfDmData" role="button" aria-disabled="false">
     <span class="ui-button-text">Download PDF</span>
+</button>
+<button id="excelDmData" role="button" aria-disabled="false">
+    <span class="ui-button-text">Download Excel</span>
 </button>
 <div id="div1" style="padding: 10px"></div>
 

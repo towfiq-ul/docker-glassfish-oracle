@@ -8,18 +8,6 @@
     </application>
   </system-applications>
   <applications>
-    <application context-root="/report_portal" location="${com.sun.aas.instanceRootURI}/applications/report_portal/" name="report_portal" object-type="user">
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/report_portal/report_portal4705723158748472252.war"></property>
-      <property name="org.glassfish.ejb.container.application_unique_id" value="103714310990528512"></property>
-      <property name="org.glassfish.persistence.app_name_property" value="report_portal"></property>
-      <property name="defaultAppName" value="report_portal4705723158748472252"></property>
-      <module name="report_portal">
-        <engine sniffer="ejb"></engine>
-        <engine sniffer="security"></engine>
-        <engine sniffer="jpa"></engine>
-        <engine sniffer="web"></engine>
-      </module>
-    </application>
     <application location="${com.sun.aas.instanceRootURI}/applications/bKashTool/" name="bKashTool" object-type="user">
       <property name="java-web-start-enabled" value="true"></property>
       <property name="preserveAppScopedResources" value="false"></property>
@@ -43,9 +31,9 @@
       <property name="java-web-start-enabled" value="true"></property>
       <property name="preserveAppScopedResources" value="false"></property>
       <property name="isComposite" value="true"></property>
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/MerchantReport/MerchantReport8643219553807889848.ear"></property>
-      <property name="org.glassfish.ejb.container.application_unique_id" value="103770397046341632"></property>
-      <property name="defaultAppName" value="MerchantReport8643219553807889848"></property>
+      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/MerchantReport/MerchantReport3676332478091186989.ear"></property>
+      <property name="org.glassfish.ejb.container.application_unique_id" value="105236543575359488"></property>
+      <property name="defaultAppName" value="MerchantReport3676332478091186989"></property>
       <engine sniffer="ear"></engine>
       <module name="MerchantReport-ejb.jar">
         <property name="org.glassfish.persistence.app_name_property" value="MerchantReport"></property>
@@ -116,7 +104,6 @@
   <servers>
     <server name="server" config-ref="server-config">
       <application-ref ref="__admingui" virtual-servers="__asadmin"></application-ref>
-      <application-ref ref="report_portal" virtual-servers="server"></application-ref>
       <application-ref ref="bKashTool" virtual-servers="server"></application-ref>
       <application-ref ref="MerchantReport" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>

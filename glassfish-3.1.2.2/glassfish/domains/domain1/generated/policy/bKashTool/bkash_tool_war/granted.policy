@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Wed Oct 07 14:42:10 BDT 2020*/
+/* AUTOMATICALLY GENERATED ON Mon Dec 07 16:53:22 BDT 2020*/
 /* DO NOT EDIT */
 
 grant {
@@ -13,6 +13,8 @@ grant {
 };
 
 grant      principal org.glassfish.security.common.Group "user" {
+  permission javax.security.jacc.WebResourcePermission "/index.html", "GET,POST";
+  permission javax.security.jacc.WebResourcePermission "/login.html", "GET,POST";
   permission javax.security.jacc.WebRoleRefPermission "SFTPEftFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "UserMenu", "user";
   permission javax.security.jacc.WebRoleRefPermission "jsp", "user";
@@ -25,16 +27,16 @@ grant      principal org.glassfish.security.common.Group "user" {
   permission javax.security.jacc.WebRoleRefPermission "com.bkash.rnd.user.service.ApplicationConfig", "user";
   permission javax.security.jacc.WebRoleRefPermission "GenerateFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "UploadRefundEft", "user";
-  permission javax.security.jacc.WebRoleRefPermission "RefundList", "user";
   permission javax.security.jacc.WebRoleRefPermission "SendScheduleRefundFiles", "user";
+  permission javax.security.jacc.WebRoleRefPermission "RefundList", "user";
   permission javax.security.jacc.WebRoleRefPermission "GenerateQcashFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "Logout", "user";
   permission javax.security.jacc.WebRoleRefPermission "RefundHistory", "user";
-  permission javax.security.jacc.WebResourcePermission "/index.html", "GET,POST";
-  permission javax.security.jacc.WebResourcePermission "/login.html", "GET,POST";
 };
 
 grant      principal org.glassfish.security.common.PrincipalImpl "user" {
+  permission javax.security.jacc.WebResourcePermission "/index.html", "GET,POST";
+  permission javax.security.jacc.WebResourcePermission "/login.html", "GET,POST";
   permission javax.security.jacc.WebRoleRefPermission "SFTPEftFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "UserMenu", "user";
   permission javax.security.jacc.WebRoleRefPermission "jsp", "user";
@@ -47,12 +49,10 @@ grant      principal org.glassfish.security.common.PrincipalImpl "user" {
   permission javax.security.jacc.WebRoleRefPermission "com.bkash.rnd.user.service.ApplicationConfig", "user";
   permission javax.security.jacc.WebRoleRefPermission "GenerateFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "UploadRefundEft", "user";
-  permission javax.security.jacc.WebRoleRefPermission "RefundList", "user";
   permission javax.security.jacc.WebRoleRefPermission "SendScheduleRefundFiles", "user";
+  permission javax.security.jacc.WebRoleRefPermission "RefundList", "user";
   permission javax.security.jacc.WebRoleRefPermission "GenerateQcashFiles", "user";
   permission javax.security.jacc.WebRoleRefPermission "Logout", "user";
   permission javax.security.jacc.WebRoleRefPermission "RefundHistory", "user";
-  permission javax.security.jacc.WebResourcePermission "/index.html", "GET,POST";
-  permission javax.security.jacc.WebResourcePermission "/login.html", "GET,POST";
 };
 

@@ -19,7 +19,7 @@
 
     <!-- mainmenu -->
     <%@ include file="/secure/menu.jsp" %>
-    <%@  page import="java.util.Calendar" %> 
+    <%@  page import="java.util.Calendar" %>
     <!-- /.mainmenu -->
 
 </div>
@@ -28,7 +28,7 @@
 
 <!-- /#footer -->
 </div>
-<!-- /#main --> 
+<!-- /#main -->
 
 <script>
 
@@ -266,6 +266,28 @@
                 $(this).datepicker('setDate', new Date(year, month, 1));
             }});
 
+        $("#datepicker_kyc_tr_startdate34,#datepicker_kyc_tr_enddate34").datepicker({
+            // maxDate: -1,
+            // minDate: -35,
+            dateFormat: 'dd-M-y',
+            changeMonth: true,
+            changeYear: false,
+            onSelect: function() {
+                $('#checkbox-MTD').prop('checked', false);
+            }
+        });
+
+        $("#datepicker_kyc_tr_startdate35,#datepicker_kyc_tr_enddate35").datepicker({
+            // maxDate: -1,
+            // minDate: -35,
+            dateFormat: 'dd-M-y',
+            changeMonth: true,
+            changeYear: false,
+            onSelect: function() {
+                $('#checkbox-MTD').prop('checked', false);
+            }
+        });
+
 
 
     });
@@ -490,7 +512,11 @@
     function checkDistributorAndMTDAndDate(c, s, e) {
         return checkDistributor() && checkMTDAndDate(c, s, e);
     }
-    
+
+    function checkMAAndRA() {
+        return checkMA() && checkRA();
+    }
+
     function checkMAAndRAandMTDAndDate(c, s, e) {
         return checkMA() && checkRA() && checkMTDAndDate(c, s, e);
     }
@@ -505,6 +531,10 @@
 
     function checkRAandDate(s, e) {
         return checkRA() && checkdate(s, e);
+    }
+
+    function checkMAandDate(s, e) {
+        return checkMA() && checkdate(s, e);
     }
 
     function checkRAandMTD(c) {

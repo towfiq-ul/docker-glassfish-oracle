@@ -167,7 +167,7 @@
         <property name="default-digest-algorithm" value="SHA-256" />
       </security-service>
       <transaction-service tx-log-dir="${com.sun.aas.instanceRoot}/logs" />
-      <java-config debug-options="-agentlib:jdwp=transport=dt_socket,address=9009,server=n,suspend=y" system-classpath="" classpath-suffix="" java-home="/home/towfiq/.sdkman/candidates/java/6.0.119-zulu">
+      <java-config debug-options="-agentlib:jdwp=transport=dt_socket,address=9009,server=n,suspend=y" system-classpath="" classpath-suffix="" java-home="/home/towfiq/.sdkman/candidates/java/7.0.262-zulu">
         <jvm-options>-XX:MaxPermSize=192m</jvm-options>
         <jvm-options>-XX:PermSize=64m</jvm-options>
         <jvm-options>-client</jvm-options>

@@ -4,10 +4,10 @@
     "/WEB-INF/classes/struts-2.1.7.dtd">
 
 <struts>
-    <constant name="struts.action.extension" value=""/> 
+    <constant name="struts.action.extension" value=""/>
     <constant name="struts.ui.theme" value="simple" />
     <package name="default" extends="struts-default" >
-    
+
         <!--
         If no class attribute is specified the framework will assume success and
         render the result index.jsp
@@ -16,150 +16,150 @@
         datePicker
         agentReport
         -->
-        
+
         <action name="detailsDailyInformation">
             <result>/secure/action/actionView/detailsDailyInformation.jsp</result>
         </action>
-        
+
         <action name="detailsDailyInformationResult" class="com.bkash.reportportal.action.DetailsDailyInformationAction" method="execute">
             <result  name="success" >/secure/action/actionView/detailsDailyInformationResult.jsp</result>
-           
+
         </action>
-        
+
         <action name="home" class="com.bkash.reportportal.action.dashboardAction" method="execute">
             <result  name="success" >/secure/action/actionView/dashboard.jsp</result>
         </action>
-        
+
         <action name="dashboard">
             <result>/secure/action/actionView/dashboard.jsp</result>
         </action>
-        
+
         <action name="datePicker" class="com.bkash.reportportal.action.datePickerAction" method="execute">
             <result  name="success" >/secure/action/actionView/datePicker.jsp</result>
         </action>
-        
+
         <action name="agentReport" class="com.bkash.reportportal.action.agentReportAction" method="execute">
             <result  name="success" >/secure/action/actionView/agentreport.jsp</result>
             <result  name="error" >/secure/action/actionView/monthlyTransaction.jsp</result>
 
         </action>
-        
+
         <action name="bsaReport" class="com.bkash.reportportal.action.bsaReportAction" method="execute">
             <result  name="success" >/secure/action/actionView/bsareport.jsp</result>
             <result  name="error" >/secure/action/actionView/monthlyTransaction.jsp</result>
 
-        </action>   
-        
-        
+        </action>
+
+
         <action name="distributorReport" class="com.bkash.reportportal.action.distributorReportAction" method="execute">
             <result  name="success" >/secure/action/actionView/distributorreport.jsp</result>
             <result  name="error" >/secure/action/actionView/monthlyTransaction.jsp</result>
 
-        </action>  
-        
-        
+        </action>
+
+
         <action name="agentDetails" class="com.bkash.reportportal.action.AgentDetailsAction" method="execute">
             <result  name="success" >/secure/action/actionView/agentDetails.jsp</result>
             <result  name="error" >/secure/action/actionView/detailsInformation.jsp</result>
 
         </action>
-        
+
         <action name="bsaDetails" class="com.bkash.reportportal.action.BsaDetailsAction" method="execute">
             <result  name="success" >/secure/action/actionView/bsaDetails.jsp</result>
             <result  name="error" >/secure/action/actionView/detailsInformation.jsp</result>
 
-        </action>   
-        
-        
+        </action>
+
+
         <action name="distributorDetails" class="com.bkash.reportportal.action.DistributorDetailsAction" method="execute">
             <result  name="success" >/secure/action/actionView/distributorDetails.jsp</result>
             <result  name="error" >/secure/action/actionView/detailsInformation.jsp</result>
 
-        </action>  
-        
+        </action>
+
         <action name="agentcount" class="com.bkash.reportportal.action.agentcountAction" method="execute">
             <result  name="success" >/secure/action/actionView/agentcount.jsp</result>
         </action>
-        
-         
+
+
         <action name="distributorcount" class="com.bkash.reportportal.action.distributorcountAction" method="execute">
             <result  name="success" >/secure/action/actionView/distributorcount.jsp</result>
         </action>
-        
+
         <!-- 
         
         #START
         KYC TRACKING REPORT
         
         -->
-        
+
         <action name="kycTrackingRep1Ui" class="com.bkash.reportportal.action.kycTrackingRep1Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep1_kyc_ui.jsp</result>
-                      
 
-            
-            
+
+
+
         </action>
-        
+
         <action name="kycTrackingRep1Result" class="com.bkash.reportportal.action.kycTrackingRep1Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep1_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep1_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep1Result" class="com.bkash.reportportal.action.kycTrackingRep1Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep1_kyc_result.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep2Ui" class="com.bkash.reportportal.action.kycTrackingRep2Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep2_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep2Result" class="com.bkash.reportportal.action.kycTrackingRep2Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep2_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep2_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep2Result" class="com.bkash.reportportal.action.kycTrackingRep2Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep2_kyc_result.jsp</result>
         </action>
         <action name="kycTrackingRep3Ui" class="com.bkash.reportportal.action.kycTrackingRep3Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep3_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep3Result" class="com.bkash.reportportal.action.kycTrackingRep3Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep3_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep3_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep3Result" class="com.bkash.reportportal.action.kycTrackingRep3Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep3_kyc_result.jsp</result>
         </action>
         <action name="kycTrackingRep4Ui" class="com.bkash.reportportal.action.kycTrackingRep4Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep4_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep4Result" class="com.bkash.reportportal.action.kycTrackingRep4Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep4_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep4_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep4Result" class="com.bkash.reportportal.action.kycTrackingRep4Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep4_kyc_result.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep5Ui" class="com.bkash.reportportal.action.kycTrackingRep5Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep5_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep5Result" class="com.bkash.reportportal.action.kycTrackingRep5Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep5_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep5_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep5Result" class="com.bkash.reportportal.action.kycTrackingRep5Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep5_kyc_result.jsp</result>
         </action>
@@ -167,222 +167,222 @@
         <action name="kycTrackingRep6Ui" class="com.bkash.reportportal.action.kycTrackingRep6Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep6_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep6Result" class="com.bkash.reportportal.action.kycTrackingRep6Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep6_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep6_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep6Result" class="com.bkash.reportportal.action.kycTrackingRep6Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep6_kyc_result.jsp</result>
         </action>
         <!--End of Added No 6 Report-->
-         
+
         <!--New Added No 7 Report-->
         <action name="kycTrackingRep7Ui" class="com.bkash.reportportal.action.kycTrackingRep7Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep7_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep7Result" class="com.bkash.reportportal.action.kycTrackingRep7Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep7_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep7_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep7Result" class="com.bkash.reportportal.action.kycTrackingRep7Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep7_kyc_result.jsp</result>
         </action>
         <!--End of Added No 7 Report-->
-         
+
         <!--New Added No 8 Report-->
         <action name="kycTrackingRep8Ui" class="com.bkash.reportportal.action.kycTrackingRep8Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep8_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep8Result" class="com.bkash.reportportal.action.kycTrackingRep8Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep8_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep8_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep8Result" class="com.bkash.reportportal.action.kycTrackingRep8Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep8_kyc_result.jsp</result>
         </action>
         <!--End of Added No 8 Report-->
-        
+
         <!--New Added No 9 Report-->
         <action name="kycTrackingRep9Ui" class="com.bkash.reportportal.action.kycTrackingRep9Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep9_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep9Result" class="com.bkash.reportportal.action.kycTrackingRep9Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep9_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep9_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep9Result" class="com.bkash.reportportal.action.kycTrackingRep9Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep9_kyc_result.jsp</result>
         </action>
         <!--End of Added No 9 Report-->
-         
+
         <!--New Added No 10 Report-->
         <action name="kycTrackingRep10Ui" class="com.bkash.reportportal.action.kycTrackingRep10Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep10_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep10Result" class="com.bkash.reportportal.action.kycTrackingRep10Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep10_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep10_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep10Result" class="com.bkash.reportportal.action.kycTrackingRep10Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep10_kyc_result.jsp</result>
         </action>
         <!--End of Added No 10 Report-->
-        
-        
+
+
         <!--New Added No 11 Report-->
         <action name="kycTrackingRep11Ui" class="com.bkash.reportportal.action.kycTrackingRep11Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep11_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep11Result" class="com.bkash.reportportal.action.kycTrackingRep11Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep11_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep11_kyc_ui.jsp</result>
 
         </action>
-        
+
         <action name="exportkycTrackingRep11Result" class="com.bkash.reportportal.action.kycTrackingRep11Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep11_kyc_result.jsp</result>
         </action>
         <!--End of Added No 11 Report-->
-        
-        
+
+
         <!--New Added No 12 Report-->
         <action name="kycTrackingRep12Ui" class="com.bkash.reportportal.action.kycTrackingRep12Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep12_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep12Result" class="com.bkash.reportportal.action.kycTrackingRep12Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep12_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep12_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep12Result" class="com.bkash.reportportal.action.kycTrackingRep12Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep12_kyc_result.jsp</result>
         </action>
         <!--End of Added No 12 Report-->
-        
+
         <!--New Added No 13 Report-->
         <action name="kycTrackingRep13Ui" class="com.bkash.reportportal.action.kycTrackingRep13Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep13_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep13Result" class="com.bkash.reportportal.action.kycTrackingRep13Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep13_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep13_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep13Result" class="com.bkash.reportportal.action.kycTrackingRep13Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep13_kyc_result.jsp</result>
         </action>
         <!--End of Added No 13 Report-->
-         
+
         <!--New Added No 14 Report-->
         <action name="kycTrackingRep14Ui" class="com.bkash.reportportal.action.kycTrackingRep14Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep14_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep14Result" class="com.bkash.reportportal.action.kycTrackingRep14Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep14_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep14_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep14Result" class="com.bkash.reportportal.action.kycTrackingRep14Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep14_kyc_result.jsp</result>
         </action>
         <!--End of Added No 14 Report-->
-        
-        
+
+
         <!--New Added No 15 Report-->
         <action name="kycTrackingRep15Ui" class="com.bkash.reportportal.action.kycTrackingRep15Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep15_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep15Result" class="com.bkash.reportportal.action.kycTrackingRep15Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep15_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep15_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep15Result" class="com.bkash.reportportal.action.kycTrackingRep15Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep15_kyc_result.jsp</result>
         </action>
         <!--End of Added No 15 Report-->
-        
+
         <!--New Added No 16 Report-->
         <action name="kycTrackingRep16Ui" class="com.bkash.reportportal.action.kycTrackingRep16Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep16_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep16Result" class="com.bkash.reportportal.action.kycTrackingRep16Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep16_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep16_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep16Result" class="com.bkash.reportportal.action.kycTrackingRep16Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep16_kyc_result.jsp</result>
         </action>
         <!--End of Added No 16 Report-->
-         
+
         <!--New Added No 17 Report-->
         <action name="kycTrackingRep17Ui" class="com.bkash.reportportal.action.kycTrackingRep17Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep17_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep17Result" class="com.bkash.reportportal.action.kycTrackingRep17Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep17_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep17_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep17Result" class="com.bkash.reportportal.action.kycTrackingRep17Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep17_kyc_result.jsp</result>
         </action>
         <!--End of Added No 17 Report-->
-         
+
         <!--New Added No 18 Report-->
         <action name="kycTrackingRep18Ui" class="com.bkash.reportportal.action.kycTrackingRep18Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep18_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep18Result" class="com.bkash.reportportal.action.kycTrackingRep18Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep18_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep18_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep18Result" class="com.bkash.reportportal.action.kycTrackingRep18Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep18_kyc_result.jsp</result>
         </action>
         <!--End of Added No 18 Report-->
-        
-        
+
+
         <!--New Added No 19 Report-->
         <action name="kycTrackingRep19Ui" class="com.bkash.reportportal.action.kycTrackingRep19Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep19_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="kycTrackingRep19Result" class="com.bkash.reportportal.action.kycTrackingRep19Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep19_kyc_result.jsp</result>
             <result  name="error" >/secure/action/kycTrackingReport/trackrep19_kyc_ui.jsp</result>
         </action>
-        
+
         <action name="exportkycTrackingRep19Result" class="com.bkash.reportportal.action.kycTrackingRep19Result" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep19_kyc_result.jsp</result>
         </action>
         <!--End of Added No 19 Report-->
-        
+
         <!--New Added No 20 Report-->
         <action name="kycTrackingRep20Ui" class="com.bkash.reportportal.action.kycTrackingRep20Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep20_kyc_ui.jsp</result>
@@ -395,7 +395,7 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep20_kyc_result.jsp</result>
         </action>
         <!--End of Added No 20 Report-->
-        
+
         <!--New Added No 21 Report-->
         <action name="kycTrackingRep21Ui" class="com.bkash.reportportal.action.kycTrackingRep21Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep21_kyc_ui.jsp</result>
@@ -408,7 +408,7 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep21_kyc_result.jsp</result>
         </action>
         <!--End of Added No 21 Report-->
-        
+
         <!--New Added No 22 Report-->
         <action name="kycTrackingRep22Ui" class="com.bkash.reportportal.action.kycTrackingRep22Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep22_kyc_ui.jsp</result>
@@ -421,7 +421,7 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep22_kyc_result.jsp</result>
         </action>
         <!--End of Added No 22 Report-->
-        
+
         <!--New Added No 23 Report-->
         <action name="kycTrackingRep23Ui" class="com.bkash.reportportal.action.kycTrackingRep23Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep23_kyc_ui.jsp</result>
@@ -447,7 +447,7 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep24_kyc_result.jsp</result>
         </action>
         <!--End of Added No 24 Report-->
-        
+
         <!--New Added No 25 Report-->
         <action name="kycTrackingRep25Ui" class="com.bkash.reportportal.action.kycTrackingRep25Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep25_kyc_ui.jsp</result>
@@ -460,7 +460,7 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep25_kyc_result.jsp</result>
         </action>
         <!--End of Added No 25 Report-->
-        
+
         <!--New Added No 26 Report-->
         <action name="kycTrackingRep26Ui" class="com.bkash.reportportal.action.kycTrackingRep26Ui" method="execute">
             <result  name="success" >/secure/action/kycTrackingReport/trackrep26_kyc_ui.jsp</result>
@@ -473,8 +473,8 @@
             <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep26_kyc_result.jsp</result>
         </action>
         <!--End of Added No 26 Report-->
-        
-        
+
+
         <!--New Added No 27 Report-->
         <action name="kycTrackingRep27Ui" class="com.bkash.reportportal.action.kycTrackingRep27Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep27_kyc_ui.jsp</result>
@@ -500,7 +500,7 @@
                 <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep28_kyc_result.jsp</result>
         </action>
         <!--End of Added No 28 Report-->
-        
+
         <!--New Added No 29 Report-->
         <action name="kycTrackingRep29Ui" class="com.bkash.reportportal.action.kycTrackingRep29Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep29_kyc_ui.jsp</result>
@@ -513,7 +513,7 @@
                 <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep29_kyc_result.jsp</result>
         </action>
         <!--End of Added No 29 Report-->
-        
+
         <!--New Added No 30 Report-->
         <action name="kycTrackingRep30Ui" class="com.bkash.reportportal.action.kycTrackingRep30Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep30_kyc_ui.jsp</result>
@@ -526,7 +526,7 @@
                 <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep30_kyc_result.jsp</result>
         </action>
         <!--End of Added No 30 Report-->
-        
+
         <!--New Added No 31 Report-->
         <action name="kycTrackingRep31Ui" class="com.bkash.reportportal.action.kycTrackingRep31Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep31_kyc_ui.jsp</result>
@@ -539,7 +539,7 @@
                 <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep31_kyc_result.jsp</result>
         </action>
         <!--End of Added No 31 Report-->
-        
+
         <!--New Added No 32 Report-->
         <action name="kycTrackingRep32Ui" class="com.bkash.reportportal.action.kycTrackingRep32Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep32_kyc_ui.jsp</result>
@@ -552,7 +552,7 @@
                 <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep32_kyc_result.jsp</result>
         </action>
         <!--End of Added No 32 Report-->
-        
+
         <!--New Added No 33 Report-->
         <action name="kycTrackingRep33Ui" class="com.bkash.reportportal.action.kycTrackingRep33Ui" method="execute">
                 <result  name="success" >/secure/action/kycTrackingReport/trackrep33_kyc_ui.jsp</result>
@@ -566,41 +566,67 @@
         </action>
         <!--End of Added No 33 Report-->
 
-        <!-- 
+        <!--New Added No 34 Report-->
+        <action name="kycTrackingRep34Ui" class="com.bkash.reportportal.action.kycTrackingRep34Ui" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/trackrep34_kyc_ui.jsp</result>
+        </action>
+        <action name="kycTrackingRep34Result" class="com.bkash.reportportal.action.kycTrackingRep34Result" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/trackrep34_kyc_result.jsp</result>
+            <result  name="error" >/secure/action/kycTrackingReport/trackrep34_kyc_ui.jsp</result>
+        </action>
+        <action name="exportkycTrackingRep34Result" class="com.bkash.reportportal.action.kycTrackingRep34Result" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep34_kyc_result.jsp</result>
+        </action>
+        <!--End of Added No 34 Report-->
+
+        <!--New Added No 35 Report-->
+        <action name="kycTrackingRep35Ui" class="com.bkash.reportportal.action.kycTrackingRep35Ui" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/trackrep35_kyc_ui.jsp</result>
+        </action>
+        <action name="kycTrackingRep35Result" class="com.bkash.reportportal.action.kycTrackingRep35Result" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/trackrep35_kyc_result.jsp</result>
+            <result  name="error" >/secure/action/kycTrackingReport/trackrep35_kyc_ui.jsp</result>
+        </action>
+        <action name="exportkycTrackingRep35Result" class="com.bkash.reportportal.action.kycTrackingRep35Result" method="execute">
+            <result  name="success" >/secure/action/kycTrackingReport/exportTrackrep35_kyc_result.jsp</result>
+        </action>
+        <!--End of Added No 35 Report-->
+
+        <!--
         #END
         KYC TRACKING REPORT
         -->
-        
+
         <action name="monthlyTransaction" class="com.bkash.reportportal.action.monthlyTransactionAction" method="execute">
             <result  name="success" >/secure/action/actionView/monthlyTransaction.jsp</result>
         </action>
-        
-        
+
+
         <action name="monthlyLiftRefund" class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
             <result  name="success" >/secure/action/actionView/monthlyLiftRefund.jsp</result>
         </action>
-        
+
         <action name="monthlyLiftRefundResult" class="com.bkash.reportportal.action.MonthlyLiftRefundResult" method="execute">
             <result  name="success" >/secure/action/actionView/monthlyLiftRefundResult.jsp</result>
         </action>
-        
+
         <action name="monthlyLiftRefundResult_Export">
             <result>/secure/action/export/monthlyLiftRefundResult_Export.jsp</result>
         </action>
-        
+
         <action name="detailsInformation" >
             <result>/secure/action/actionView/detailsInformation.jsp</result>
         </action>
-        
-        
-        
 
-        
+
+
+
+
         <action name="kycStatus"  class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
             <result name="success" >/secure/action/actionView/kyc_status_ui.jsp</result>
         </action>
-        
-        
+
+
         <action name="kycStatusReportResult"  class="com.bkash.reportportal.action.KycStatusReportAction" method="execute">
             <result  name="success" >/secure/action/actionView/kycStatusReport.jsp</result>
         </action>
@@ -608,108 +634,108 @@
         <action name="kycCommission"  class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
             <result  name="success" >/secure/action/actionView/kyc_comm_ui.jsp</result>
         </action>
-        
+
         <action name="kycCommissionReportResult"  class="com.bkash.reportportal.action.KycCommissionReportAction" method="execute">
             <result  name="success" >/secure/action/actionView/kycCommissionReport.jsp</result>
         </action>
-        
+
         <action name="kycStatusSummary"  class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
             <result  name="success" >/secure/action/actionView/kyc_status_summary_ui.jsp</result>
         </action>
-        
-                
+
+
         <action name="kycStatusSummaryResult"  class="com.bkash.reportportal.action.KycStatusSummaryResult" method="execute">
             <result  name="success" >/secure/action/actionView/kyc_status_summary_result.jsp</result>
         </action>
-                
-             
+
+
         <action name="exportKycStatusSummaryReport"  class="com.bkash.reportportal.action.KycStatusSummaryResult" method="execute">
             <result  name="success" >/secure/action/actionView/exportKycStatusSummaryReport.jsp</result>
         </action>
-        
+
         <action name="kycCommissionSummary" class="com.bkash.reportportal.action.MonthlyLiftRefund" method="execute">
             <result  name="success" >/secure/action/actionView/kyc_commission_summary_ui.jsp</result>
         </action>
-        
+
         <action name="kycCommissionSummaryResult" class="com.bkash.reportportal.action.KycCommissionSummaryResult" method="execute">
             <result  name="success" >/secure/action/actionView/kyc_commission_summary_result.jsp</result>
         </action>
-        
+
         <action name="exportKycCommissionSummaryReport"  class="com.bkash.reportportal.action.KycCommissionSummaryResult" method="execute">
             <result  name="success" >/secure/action/actionView/exportKycCommissionSummaryReport.jsp</result>
         </action>
-       
+
         <action name="cancel" class="com.bkash.nydus.home" method="execute">
             <result  name="success" >/secure/action/home.jsp</result>
-        
+
         </action>
-        
-                        
+
+
         <action name="bsacount" class="com.bkash.reportportal.action.bsacountAction" method="execute">
             <result  name="success" >/secure/action/actionView/bsacount.jsp</result>
         </action>
-        
+
 
         <action name="exportUser" class="com.bkash.reportportal.action.DistributorDetailsAction" method="execute">
             <result>/secure/action/actionView/exportUser.jsp</result>
         </action>
-        
+
         <action name="exportbsaDetails" class="com.bkash.reportportal.action.BsaDetailsAction" method="execute">
             <result>/secure/action/actionView/exportbsaDetails.jsp</result>
         </action>
-        
+
         <action name="exportagentDetails" class="com.bkash.reportportal.action.AgentDetailsAction" method="execute">
             <result>/secure/action/actionView/exportagentDetails.jsp</result>
         </action>
-        
+
         <action name="exportDetailsDailyInformation" class="com.bkash.reportportal.action.DetailsDailyInformationAction" method="execute">
             <result>/secure/action/actionView/exportDetailsdailyInformationResult.jsp</result>
         </action>
-        
+
         <action name="exportKycStatusReport" class="com.bkash.reportportal.action.KycStatusReportAction" method="execute">
             <result>/secure/action/actionView/exportKycStatusReport.jsp</result>
         </action>
-        
+
         <action name="exportKycCommissionReport" class="com.bkash.reportportal.action.KycCommissionReportAction" method="execute">
             <result>/secure/action/actionView/exportKycCommissionReport.jsp</result>
         </action>
         <action name="" class="com.bkash.nydus.home" method="execute">
             <result  name="success" >/secure/action/home.jsp</result>
         </action>
-            
+
         <action name="change">
             <result>/secure/pwd_chng.jsp</result>
         </action>
         <action name="logout">
             <result>/secure/logout.jsp</result>
         </action>
-        
+
         <action name="sm_tm_management">
             <result>/secure/action/actionView/rsm_tm_user_list.jsp</result>
         </action>
-        
+
         <action name="export_tm_rsm_list">
             <result>/secure/action/actionView/rsm_tm_user_export.jsp</result>
         </action>
-        
+
         <action name="search">
             <result>/secure/action/Request/search.jsp</result>
         </action>
-		
+
         <!--
         If the URL is hello.action the call the execute method of class HelloWorldAction.
         If the result returned by the execute method is success render the HelloWorld.jsp
         -->
-      
+
         <action name="accountmod" >
             <result>/secure/action/account_provision/add.jsp</result>
         </action>
 
 
-     
-         
+
+
     </package>
-    
+
     <include file="struts-barcelona.xml"></include>
 
 </struts>

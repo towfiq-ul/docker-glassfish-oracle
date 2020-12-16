@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Mon Feb 24 20:59:48 BDT 2020*/
+/* AUTOMATICALLY GENERATED ON Mon Dec 07 16:54:22 BDT 2020*/
 /* DO NOT EDIT */
 
 grant {
@@ -13,8 +13,8 @@ grant {
   permission javax.security.jacc.EJBMethodPermission "UserBean", "remove,Local,java.lang.String";
   permission javax.security.jacc.EJBMethodPermission "UserManagementService", "createRecord,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String";
   permission javax.security.jacc.EJBMethodPermission "UserManagementService", "getRaList,Local,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String";
-  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "ping,Local,";
   permission javax.security.jacc.EJBMethodPermission "UserManagementService", "login,Local,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest";
+  permission javax.security.jacc.EJBMethodPermission "UserManagementService", "ping,Local,";
   permission javax.security.jacc.EJBMethodPermission "UserBean", "update,Local,com.bkash.model.usermanagement.User";
   permission javax.security.jacc.EJBMethodPermission "UserManagementService", "logout,Local,javax.servlet.http.HttpServletRequest";
 };

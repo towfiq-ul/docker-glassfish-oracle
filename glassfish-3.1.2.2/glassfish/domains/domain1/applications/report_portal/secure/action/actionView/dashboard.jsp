@@ -125,6 +125,8 @@
         <a href="<s:url action="secure/action/kycTrackingRep31Ui" />"><p>Day wise RA report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep32Ui" />"><p>Day wise Distributor report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep33Ui" />"><p>Distributor Performance Summary</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep34Ui" />"><p>B2B Request Report</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep35Ui" />"><p>B2B Acknowledgement Report</p></a>
 
 
 
@@ -265,6 +267,8 @@
 
         <a href="<s:url action="secure/action/kycTrackingRep17Ui" />"><p>Agent List</p></a>
 
+        <a href="<s:url action="secure/action/kycTrackingRep34Ui" />"><p>B2B Request Report</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep35Ui" />"><p>B2B Acknowledgement Report</p></a>
 
         <!--<a href="<s:url action="secure/action/kycTrackingRep20Ui" />"><p>Daily Performance Report : DSO wise</p></a>-->
 
@@ -318,6 +322,8 @@
         <a href="<s:url action="secure/action/kycTrackingRep31Ui" />"><p>Day wise RA report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep32Ui" />"><p>Day wise Distributor report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep33Ui" />"><p>Distributor Performance Summary</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep34Ui" />"><p>B2B Request Report</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep35Ui" />"><p>B2B Acknowledgement Report</p></a>
         <%  }%>
 
         <!--SM-->
@@ -340,6 +346,8 @@
         <a href="<s:url action="secure/action/kycTrackingRep31Ui" />"><p>Day wise RA report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep32Ui" />"><p>Day wise Distributor report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep33Ui" />"><p>Distributor Performance Summary</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep34Ui" />"><p>B2B Request Report</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep35Ui" />"><p>B2B Acknowledgement Report</p></a>
         <%  }%>
 
         <!--TM-->
@@ -362,6 +370,8 @@
         <a href="<s:url action="secure/action/kycTrackingRep31Ui" />"><p>Day wise RA report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep32Ui" />"><p>Day wise Distributor report</p></a>
         <a href="<s:url action="secure/action/kycTrackingRep33Ui" />"><p>Distributor Performance Summary</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep34Ui" />"><p>B2B Request Report</p></a>
+        <a href="<s:url action="secure/action/kycTrackingRep35Ui" />"><p>B2B Acknowledgement Report</p></a>
         <%  }%>
 
 

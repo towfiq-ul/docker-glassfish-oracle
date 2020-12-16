@@ -631,12 +631,20 @@ out.print(pagename);
       if (_jspx_meth_s_url_44(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Performance Summary</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_45(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Request Report</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_46(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Acknowledgement Report</p></a>\n");
       out.write("\n");
       out.write("\n");
       out.write("\n");
       out.write("\n");
       out.write("        <!--<a href=\"");
-      if (_jspx_meth_s_url_45(_jspx_page_context))
+      if (_jspx_meth_s_url_47(_jspx_page_context))
         return;
       out.write("\"><p>Daily Performance Report : DSO wise</p></a>-->\n");
       out.write("\n");
@@ -648,22 +656,22 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">Transaction Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_46(_jspx_page_context))
+      if (_jspx_meth_s_url_48(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report # 1</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_47(_jspx_page_context))
+      if (_jspx_meth_s_url_49(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report # 2</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_48(_jspx_page_context))
+      if (_jspx_meth_s_url_50(_jspx_page_context))
         return;
       out.write("\"><p>Detailed Report</p></a>\n");
       out.write("        <br/>\n");
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">Lift & Refund Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_49(_jspx_page_context))
+      if (_jspx_meth_s_url_51(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report</p></a>\n");
       out.write("        <br/>\n");
@@ -672,30 +680,30 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">KYC Status Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_50(_jspx_page_context))
+      if (_jspx_meth_s_url_52(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_51(_jspx_page_context))
+      if (_jspx_meth_s_url_53(_jspx_page_context))
         return;
       out.write("\"><p>Detailed Report</p></a>\n");
       out.write("\n");
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">Others<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_52(_jspx_page_context))
+      if (_jspx_meth_s_url_54(_jspx_page_context))
         return;
       out.write("\"><p>Wallet Balance Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_53(_jspx_page_context))
+      if (_jspx_meth_s_url_55(_jspx_page_context))
         return;
       out.write("\"><p>Registration Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_54(_jspx_page_context))
+      if (_jspx_meth_s_url_56(_jspx_page_context))
         return;
       out.write("\"><p>Lifting & Refund Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_55(_jspx_page_context))
+      if (_jspx_meth_s_url_57(_jspx_page_context))
         return;
       out.write("\"><p>KYC Status Of Wallet Report</p></a>\n");
       out.write("        -->\n");
@@ -724,15 +732,15 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">Transaction Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_57(_jspx_page_context))
+      if (_jspx_meth_s_url_59(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report # 1</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_58(_jspx_page_context))
+      if (_jspx_meth_s_url_60(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report # 2</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_59(_jspx_page_context))
+      if (_jspx_meth_s_url_61(_jspx_page_context))
         return;
       out.write("\"><p>Detailed Report</p></a>\n");
       out.write("        <br/>\n");
@@ -756,7 +764,7 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">Transaction Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_60(_jspx_page_context))
+      if (_jspx_meth_s_url_62(_jspx_page_context))
         return;
       out.write("\"><p>Summary Report</p></a>\n");
       out.write("        <br/>\n");
@@ -793,25 +801,25 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">KYC Tracking Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("<!--        <a href=\"");
-      if (_jspx_meth_s_url_63(_jspx_page_context))
+      if (_jspx_meth_s_url_65(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Summary Report : Date Wise</p></a>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_64(_jspx_page_context))
+      if (_jspx_meth_s_url_66(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Summary Report : BSA Agent Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_65(_jspx_page_context))
+      if (_jspx_meth_s_url_67(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Detailed Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_66(_jspx_page_context))
+      if (_jspx_meth_s_url_68(_jspx_page_context))
         return;
       out.write("\"><p>Registration and Balance Report: Agent Wise</p></a>-->\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_67(_jspx_page_context))
+      if (_jspx_meth_s_url_69(_jspx_page_context))
         return;
       out.write("\"><p>ID Searching Tool</p></a>\n");
       out.write("\n");
@@ -820,48 +828,56 @@ out.print(pagename);
       out.write("                    - - - - - - - - - -New Report- - - - - - - - - -</p>-->\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_68(_jspx_page_context))
+      if (_jspx_meth_s_url_70(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report: Date wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_69(_jspx_page_context))
+      if (_jspx_meth_s_url_71(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report: Agent wise</p></a>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_70(_jspx_page_context))
+      if (_jspx_meth_s_url_72(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report: DSO wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_71(_jspx_page_context))
+      if (_jspx_meth_s_url_73(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Detailed Report: Customer Account wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_72(_jspx_page_context))
+      if (_jspx_meth_s_url_74(_jspx_page_context))
         return;
       out.write("\"><p>Daily Registration & Transaction Report: Agent wise</p></a>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_73(_jspx_page_context))
+      if (_jspx_meth_s_url_75(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Date wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_74(_jspx_page_context))
+      if (_jspx_meth_s_url_76(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : DSO wise </p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_75(_jspx_page_context))
+      if (_jspx_meth_s_url_77(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Agent wise</p></a>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_76(_jspx_page_context))
+      if (_jspx_meth_s_url_78(_jspx_page_context))
         return;
       out.write("\"><p>Agent List</p></a>\n");
       out.write("\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_79(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Request Report</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_80(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Acknowledgement Report</p></a>\n");
       out.write("\n");
       out.write("        <!--<a href=\"");
-      if (_jspx_meth_s_url_77(_jspx_page_context))
+      if (_jspx_meth_s_url_81(_jspx_page_context))
         return;
       out.write("\"><p>Daily Performance Report : DSO wise</p></a>-->\n");
       out.write("\n");
@@ -894,17 +910,17 @@ out.print(pagename);
       out.write("\n");
       out.write("        <!--RSM TM ASM Mangement-->\n");
       out.write("        <!--<a href=\"");
-      if (_jspx_meth_s_url_80(_jspx_page_context))
+      if (_jspx_meth_s_url_84(_jspx_page_context))
         return;
       out.write("\"><p>User Mapping Management</p></a>-->\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_81(_jspx_page_context))
+      if (_jspx_meth_s_url_85(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Wise Report</p></a>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_82(_jspx_page_context))
+      if (_jspx_meth_s_url_86(_jspx_page_context))
         return;
       out.write("\"><p>All Distributor Detailed Report: Customer Account wise</p></a>\n");
       out.write("        ");
@@ -919,51 +935,59 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">KYC Tracking Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_83(_jspx_page_context))
+      if (_jspx_meth_s_url_87(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report : Distributor wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_84(_jspx_page_context))
+      if (_jspx_meth_s_url_88(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Distributor Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_85(_jspx_page_context))
+      if (_jspx_meth_s_url_89(_jspx_page_context))
         return;
       out.write("\"><p>Lifting Status Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_86(_jspx_page_context))
+      if (_jspx_meth_s_url_90(_jspx_page_context))
         return;
       out.write("\"><p>Refund Status Report</p></a>  \n");
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">DSO App Monitoring Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_87(_jspx_page_context))
+      if (_jspx_meth_s_url_91(_jspx_page_context))
         return;
       out.write("\"><p>Check IN and B2B raw data</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_88(_jspx_page_context))
+      if (_jspx_meth_s_url_92(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report</p></a>  \n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_89(_jspx_page_context))
+      if (_jspx_meth_s_url_93(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report MTD</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_90(_jspx_page_context))
+      if (_jspx_meth_s_url_94(_jspx_page_context))
         return;
       out.write("\"><p>RA Performance Report </p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_91(_jspx_page_context))
+      if (_jspx_meth_s_url_95(_jspx_page_context))
         return;
       out.write("\"><p>Day wise RA report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_92(_jspx_page_context))
+      if (_jspx_meth_s_url_96(_jspx_page_context))
         return;
       out.write("\"><p>Day wise Distributor report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_93(_jspx_page_context))
+      if (_jspx_meth_s_url_97(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Performance Summary</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_98(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Request Report</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_99(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Acknowledgement Report</p></a>\n");
       out.write("        ");
   }
       out.write("\n");
@@ -976,59 +1000,67 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">KYC Tracking Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_94(_jspx_page_context))
+      if (_jspx_meth_s_url_100(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report : Distributor wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_95(_jspx_page_context))
+      if (_jspx_meth_s_url_101(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report : Agent wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_96(_jspx_page_context))
+      if (_jspx_meth_s_url_102(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Distributor Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_97(_jspx_page_context))
+      if (_jspx_meth_s_url_103(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Agent Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_98(_jspx_page_context))
+      if (_jspx_meth_s_url_104(_jspx_page_context))
         return;
       out.write("\"><p>Lifting Status Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_99(_jspx_page_context))
+      if (_jspx_meth_s_url_105(_jspx_page_context))
         return;
       out.write("\"><p>Refund Status Report</p></a>   \n");
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">DSO App Monitoring Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_100(_jspx_page_context))
+      if (_jspx_meth_s_url_106(_jspx_page_context))
         return;
       out.write("\"><p>Check IN and B2B raw data</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_101(_jspx_page_context))
+      if (_jspx_meth_s_url_107(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report</p></a>  \n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_102(_jspx_page_context))
+      if (_jspx_meth_s_url_108(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report MTD</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_103(_jspx_page_context))
+      if (_jspx_meth_s_url_109(_jspx_page_context))
         return;
       out.write("\"><p>RA Performance Report </p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_104(_jspx_page_context))
+      if (_jspx_meth_s_url_110(_jspx_page_context))
         return;
       out.write("\"><p>Day wise RA report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_105(_jspx_page_context))
+      if (_jspx_meth_s_url_111(_jspx_page_context))
         return;
       out.write("\"><p>Day wise Distributor report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_106(_jspx_page_context))
+      if (_jspx_meth_s_url_112(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Performance Summary</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_113(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Request Report</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_114(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Acknowledgement Report</p></a>\n");
       out.write("        ");
   }
       out.write("\n");
@@ -1041,59 +1073,67 @@ out.print(pagename);
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">KYC Tracking Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_107(_jspx_page_context))
+      if (_jspx_meth_s_url_115(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report : Distributor wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_108(_jspx_page_context))
+      if (_jspx_meth_s_url_116(_jspx_page_context))
         return;
       out.write("\"><p>Registration Summary Report : Agent wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_109(_jspx_page_context))
+      if (_jspx_meth_s_url_117(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Distributor Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_110(_jspx_page_context))
+      if (_jspx_meth_s_url_118(_jspx_page_context))
         return;
       out.write("\"><p>Transaction Summary Report : Agent Wise</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_111(_jspx_page_context))
+      if (_jspx_meth_s_url_119(_jspx_page_context))
         return;
       out.write("\"><p>Lifting Status Report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_112(_jspx_page_context))
+      if (_jspx_meth_s_url_120(_jspx_page_context))
         return;
       out.write("\"><p>Refund Status Report</p></a>\n");
       out.write("        <p style=\"font-size: 1.7em; color: #052b4d; font: Arial, sans-serif;\">DSO App Monitoring Report<br/>\n");
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_113(_jspx_page_context))
+      if (_jspx_meth_s_url_121(_jspx_page_context))
         return;
       out.write("\"><p>Check IN and B2B raw data</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_114(_jspx_page_context))
+      if (_jspx_meth_s_url_122(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report</p></a>  \n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_115(_jspx_page_context))
+      if (_jspx_meth_s_url_123(_jspx_page_context))
         return;
       out.write("\"><p>Agent Wise- Check IN and B2B report MTD</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_116(_jspx_page_context))
+      if (_jspx_meth_s_url_124(_jspx_page_context))
         return;
       out.write("\"><p>RA Performance Report </p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_117(_jspx_page_context))
+      if (_jspx_meth_s_url_125(_jspx_page_context))
         return;
       out.write("\"><p>Day wise RA report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_118(_jspx_page_context))
+      if (_jspx_meth_s_url_126(_jspx_page_context))
         return;
       out.write("\"><p>Day wise Distributor report</p></a>\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_119(_jspx_page_context))
+      if (_jspx_meth_s_url_127(_jspx_page_context))
         return;
       out.write("\"><p>Distributor Performance Summary</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_128(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Request Report</p></a>\n");
+      out.write("        <a href=\"");
+      if (_jspx_meth_s_url_129(_jspx_page_context))
+        return;
+      out.write("\"><p>B2B Acknowledgement Report</p></a>\n");
       out.write("        ");
   }
       out.write("\n");
@@ -1117,7 +1157,7 @@ out.print(pagename);
       out.write("            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>\n");
       out.write("\n");
       out.write("        <a href=\"");
-      if (_jspx_meth_s_url_122(_jspx_page_context))
+      if (_jspx_meth_s_url_132(_jspx_page_context))
         return;
       out.write("\"><p>ID Searching Tool</p></a>\n");
       out.write("        <br/>\n");
@@ -1290,7 +1330,7 @@ out.print(pagename);
       out.print(request.getContextPath());
       out.write("/secure/Admin/Account.jsp\">Manage Accounts</a></li>\n");
       out.write("    <li><a href=\"");
-      if (_jspx_meth_s_url_123(_jspx_page_context))
+      if (_jspx_meth_s_url_133(_jspx_page_context))
         return;
       out.write("\"><p>User Mapping Management</p></a></li>\n");
       out.write("        ");
@@ -1300,7 +1340,7 @@ out.print(pagename);
       out.write("\n");
       out.write("</ul> ");
       out.write("\n");
-      out.write("     \n");
+      out.write("    \n");
       out.write("    <!-- /.mainmenu -->\n");
       out.write("\n");
       out.write("</div>\n");
@@ -1309,7 +1349,7 @@ out.print(pagename);
       out.write("\n");
       out.write("<!-- /#footer -->\n");
       out.write("</div>\n");
-      out.write("<!-- /#main --> \n");
+      out.write("<!-- /#main -->\n");
       out.write("\n");
       out.write("<script>\n");
       out.write("\n");
@@ -1547,6 +1587,28 @@ out.print(pagename);
       out.write("                $(this).datepicker('setDate', new Date(year, month, 1));\n");
       out.write("            }});\n");
       out.write("\n");
+      out.write("        $(\"#datepicker_kyc_tr_startdate34,#datepicker_kyc_tr_enddate34\").datepicker({\n");
+      out.write("            // maxDate: -1,\n");
+      out.write("            // minDate: -35,\n");
+      out.write("            dateFormat: 'dd-M-y',\n");
+      out.write("            changeMonth: true,\n");
+      out.write("            changeYear: false,\n");
+      out.write("            onSelect: function() {\n");
+      out.write("                $('#checkbox-MTD').prop('checked', false);\n");
+      out.write("            }\n");
+      out.write("        });\n");
+      out.write("\n");
+      out.write("        $(\"#datepicker_kyc_tr_startdate35,#datepicker_kyc_tr_enddate35\").datepicker({\n");
+      out.write("            // maxDate: -1,\n");
+      out.write("            // minDate: -35,\n");
+      out.write("            dateFormat: 'dd-M-y',\n");
+      out.write("            changeMonth: true,\n");
+      out.write("            changeYear: false,\n");
+      out.write("            onSelect: function() {\n");
+      out.write("                $('#checkbox-MTD').prop('checked', false);\n");
+      out.write("            }\n");
+      out.write("        });\n");
+      out.write("\n");
       out.write("\n");
       out.write("\n");
       out.write("    });\n");
@@ -1771,7 +1833,11 @@ out.print(pagename);
       out.write("    function checkDistributorAndMTDAndDate(c, s, e) {\n");
       out.write("        return checkDistributor() && checkMTDAndDate(c, s, e);\n");
       out.write("    }\n");
-      out.write("    \n");
+      out.write("\n");
+      out.write("    function checkMAAndRA() {\n");
+      out.write("        return checkMA() && checkRA();\n");
+      out.write("    }\n");
+      out.write("\n");
       out.write("    function checkMAAndRAandMTDAndDate(c, s, e) {\n");
       out.write("        return checkMA() && checkRA() && checkMTDAndDate(c, s, e);\n");
       out.write("    }\n");
@@ -1786,6 +1852,10 @@ out.print(pagename);
       out.write("\n");
       out.write("    function checkRAandDate(s, e) {\n");
       out.write("        return checkRA() && checkdate(s, e);\n");
+      out.write("    }\n");
+      out.write("\n");
+      out.write("    function checkMAandDate(s, e) {\n");
+      out.write("        return checkMA() && checkdate(s, e);\n");
       out.write("    }\n");
       out.write("\n");
       out.write("    function checkRAandMTD(c) {\n");
@@ -3094,7 +3164,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_45 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_45.setPageContext(_jspx_page_context);
     _jspx_th_s_url_45.setParent(null);
-    _jspx_th_s_url_45.setAction("secure/action/kycTrackingRep20Ui");
+    _jspx_th_s_url_45.setAction("secure/action/kycTrackingRep34Ui");
     int _jspx_eval_s_url_45 = _jspx_th_s_url_45.doStartTag();
     if (_jspx_th_s_url_45.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_45);
@@ -3112,7 +3182,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_46 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_46.setPageContext(_jspx_page_context);
     _jspx_th_s_url_46.setParent(null);
-    _jspx_th_s_url_46.setAction("secure/action/monthlyTransaction");
+    _jspx_th_s_url_46.setAction("secure/action/kycTrackingRep35Ui");
     int _jspx_eval_s_url_46 = _jspx_th_s_url_46.doStartTag();
     if (_jspx_th_s_url_46.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_46);
@@ -3130,7 +3200,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_47 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_47.setPageContext(_jspx_page_context);
     _jspx_th_s_url_47.setParent(null);
-    _jspx_th_s_url_47.setAction("secure/action/detailsInformation");
+    _jspx_th_s_url_47.setAction("secure/action/kycTrackingRep20Ui");
     int _jspx_eval_s_url_47 = _jspx_th_s_url_47.doStartTag();
     if (_jspx_th_s_url_47.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_47);
@@ -3148,7 +3218,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_48 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_48.setPageContext(_jspx_page_context);
     _jspx_th_s_url_48.setParent(null);
-    _jspx_th_s_url_48.setAction("secure/action/detailsDailyInformation");
+    _jspx_th_s_url_48.setAction("secure/action/monthlyTransaction");
     int _jspx_eval_s_url_48 = _jspx_th_s_url_48.doStartTag();
     if (_jspx_th_s_url_48.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_48);
@@ -3166,7 +3236,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_49 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_49.setPageContext(_jspx_page_context);
     _jspx_th_s_url_49.setParent(null);
-    _jspx_th_s_url_49.setAction("secure/action/monthlyLiftRefund");
+    _jspx_th_s_url_49.setAction("secure/action/detailsInformation");
     int _jspx_eval_s_url_49 = _jspx_th_s_url_49.doStartTag();
     if (_jspx_th_s_url_49.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_49);
@@ -3184,7 +3254,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_50 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_50.setPageContext(_jspx_page_context);
     _jspx_th_s_url_50.setParent(null);
-    _jspx_th_s_url_50.setAction("secure/action/kycStatusSummary");
+    _jspx_th_s_url_50.setAction("secure/action/detailsDailyInformation");
     int _jspx_eval_s_url_50 = _jspx_th_s_url_50.doStartTag();
     if (_jspx_th_s_url_50.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_50);
@@ -3202,7 +3272,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_51 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_51.setPageContext(_jspx_page_context);
     _jspx_th_s_url_51.setParent(null);
-    _jspx_th_s_url_51.setAction("secure/action/kycStatus");
+    _jspx_th_s_url_51.setAction("secure/action/monthlyLiftRefund");
     int _jspx_eval_s_url_51 = _jspx_th_s_url_51.doStartTag();
     if (_jspx_th_s_url_51.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_51);
@@ -3220,7 +3290,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_52 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_52.setPageContext(_jspx_page_context);
     _jspx_th_s_url_52.setParent(null);
-    _jspx_th_s_url_52.setAction("secure/action/walletBalanceReport_ui");
+    _jspx_th_s_url_52.setAction("secure/action/kycStatusSummary");
     int _jspx_eval_s_url_52 = _jspx_th_s_url_52.doStartTag();
     if (_jspx_th_s_url_52.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_52);
@@ -3238,7 +3308,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_53 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_53.setPageContext(_jspx_page_context);
     _jspx_th_s_url_53.setParent(null);
-    _jspx_th_s_url_53.setAction("secure/action/registrationReport_ui");
+    _jspx_th_s_url_53.setAction("secure/action/kycStatus");
     int _jspx_eval_s_url_53 = _jspx_th_s_url_53.doStartTag();
     if (_jspx_th_s_url_53.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_53);
@@ -3256,7 +3326,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_54 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_54.setPageContext(_jspx_page_context);
     _jspx_th_s_url_54.setParent(null);
-    _jspx_th_s_url_54.setAction("secure/action/liftingAndRefundSummary");
+    _jspx_th_s_url_54.setAction("secure/action/walletBalanceReport_ui");
     int _jspx_eval_s_url_54 = _jspx_th_s_url_54.doStartTag();
     if (_jspx_th_s_url_54.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_54);
@@ -3274,13 +3344,49 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_55 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_55.setPageContext(_jspx_page_context);
     _jspx_th_s_url_55.setParent(null);
-    _jspx_th_s_url_55.setAction("secure/action/kycStatusOfWallet");
+    _jspx_th_s_url_55.setAction("secure/action/registrationReport_ui");
     int _jspx_eval_s_url_55 = _jspx_th_s_url_55.doStartTag();
     if (_jspx_th_s_url_55.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_55);
       return true;
     }
     _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_55);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_56(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_56 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_56.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_56.setParent(null);
+    _jspx_th_s_url_56.setAction("secure/action/liftingAndRefundSummary");
+    int _jspx_eval_s_url_56 = _jspx_th_s_url_56.doStartTag();
+    if (_jspx_th_s_url_56.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_56);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_56);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_57(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_57 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_57.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_57.setParent(null);
+    _jspx_th_s_url_57.setAction("secure/action/kycStatusOfWallet");
+    int _jspx_eval_s_url_57 = _jspx_th_s_url_57.doStartTag();
+    if (_jspx_th_s_url_57.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_57);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_57);
     return false;
   }
 
@@ -3313,7 +3419,7 @@ out.print(pagename);
         out.write("</p>\n");
         out.write("\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_56((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_2, _jspx_page_context))
+        if (_jspx_meth_s_url_58((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_2, _jspx_page_context))
           return true;
         out.write("\"><p>Total Agent Count</a> : ");
         if (_jspx_meth_s_property_12((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_2, _jspx_page_context))
@@ -3373,21 +3479,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_56(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_2, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_58(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_2, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_56 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_56.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_56.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_2);
-    _jspx_th_s_url_56.setAction("secure/action/agentcount");
-    int _jspx_eval_s_url_56 = _jspx_th_s_url_56.doStartTag();
-    if (_jspx_th_s_url_56.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_56);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_58 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_58.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_58.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_2);
+    _jspx_th_s_url_58.setAction("secure/action/agentcount");
+    int _jspx_eval_s_url_58 = _jspx_th_s_url_58.doStartTag();
+    if (_jspx_th_s_url_58.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_58);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_56);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_58);
     return false;
   }
 
@@ -3409,42 +3515,6 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_57(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_57 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_57.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_57.setParent(null);
-    _jspx_th_s_url_57.setAction("secure/action/monthlyTransaction");
-    int _jspx_eval_s_url_57 = _jspx_th_s_url_57.doStartTag();
-    if (_jspx_th_s_url_57.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_57);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_57);
-    return false;
-  }
-
-  private boolean _jspx_meth_s_url_58(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_58 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_58.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_58.setParent(null);
-    _jspx_th_s_url_58.setAction("secure/action/detailsInformation");
-    int _jspx_eval_s_url_58 = _jspx_th_s_url_58.doStartTag();
-    if (_jspx_th_s_url_58.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_58);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_58);
-    return false;
-  }
-
   private boolean _jspx_meth_s_url_59(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -3453,13 +3523,49 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_59 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_59.setPageContext(_jspx_page_context);
     _jspx_th_s_url_59.setParent(null);
-    _jspx_th_s_url_59.setAction("secure/action/detailsDailyInformation");
+    _jspx_th_s_url_59.setAction("secure/action/monthlyTransaction");
     int _jspx_eval_s_url_59 = _jspx_th_s_url_59.doStartTag();
     if (_jspx_th_s_url_59.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_59);
       return true;
     }
     _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_59);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_60(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_60 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_60.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_60.setParent(null);
+    _jspx_th_s_url_60.setAction("secure/action/detailsInformation");
+    int _jspx_eval_s_url_60 = _jspx_th_s_url_60.doStartTag();
+    if (_jspx_th_s_url_60.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_60);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_60);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_61(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_61 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_61.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_61.setParent(null);
+    _jspx_th_s_url_61.setAction("secure/action/detailsDailyInformation");
+    int _jspx_eval_s_url_61 = _jspx_th_s_url_61.doStartTag();
+    if (_jspx_th_s_url_61.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_61);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_61);
     return false;
   }
 
@@ -3545,21 +3651,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_60(PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_62(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_60 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_60.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_60.setParent(null);
-    _jspx_th_s_url_60.setAction("secure/action/monthlyTransaction");
-    int _jspx_eval_s_url_60 = _jspx_th_s_url_60.doStartTag();
-    if (_jspx_th_s_url_60.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_60);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_62 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_62.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_62.setParent(null);
+    _jspx_th_s_url_62.setAction("secure/action/monthlyTransaction");
+    int _jspx_eval_s_url_62 = _jspx_th_s_url_62.doStartTag();
+    if (_jspx_th_s_url_62.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_62);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_60);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_62);
     return false;
   }
 
@@ -3674,14 +3780,14 @@ out.print(pagename);
         out.write("</p>\n");
         out.write("\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_61((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
+        if (_jspx_meth_s_url_63((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
           return true;
         out.write("\"><p>Total Agent Count</a> : ");
         if (_jspx_meth_s_property_19((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
           return true;
         out.write("</p>\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_62((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
+        if (_jspx_meth_s_url_64((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
           return true;
         out.write("\"><p>Total BSA Count</a> : ");
         if (_jspx_meth_s_property_20((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_5, _jspx_page_context))
@@ -3741,21 +3847,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_61(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_5, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_63(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_5, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_61 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_61.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_61.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_5);
-    _jspx_th_s_url_61.setAction("secure/action/agentcount");
-    int _jspx_eval_s_url_61 = _jspx_th_s_url_61.doStartTag();
-    if (_jspx_th_s_url_61.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_61);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_63 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_63.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_63.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_5);
+    _jspx_th_s_url_63.setAction("secure/action/agentcount");
+    int _jspx_eval_s_url_63 = _jspx_th_s_url_63.doStartTag();
+    if (_jspx_th_s_url_63.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_63);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_61);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_63);
     return false;
   }
 
@@ -3777,21 +3883,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_62(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_5, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_64(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_5, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_62 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_62.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_62.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_5);
-    _jspx_th_s_url_62.setAction("secure/action/bsacount");
-    int _jspx_eval_s_url_62 = _jspx_th_s_url_62.doStartTag();
-    if (_jspx_th_s_url_62.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_62);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_64 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_64.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_64.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_5);
+    _jspx_th_s_url_64.setAction("secure/action/bsacount");
+    int _jspx_eval_s_url_64 = _jspx_th_s_url_64.doStartTag();
+    if (_jspx_th_s_url_64.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_64);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_62);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_64);
     return false;
   }
 
@@ -3813,42 +3919,6 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_63(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_63 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_63.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_63.setParent(null);
-    _jspx_th_s_url_63.setAction("secure/action/kycTrackingRep1Ui");
-    int _jspx_eval_s_url_63 = _jspx_th_s_url_63.doStartTag();
-    if (_jspx_th_s_url_63.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_63);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_63);
-    return false;
-  }
-
-  private boolean _jspx_meth_s_url_64(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_64 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_64.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_64.setParent(null);
-    _jspx_th_s_url_64.setAction("secure/action/kycTrackingRep3Ui");
-    int _jspx_eval_s_url_64 = _jspx_th_s_url_64.doStartTag();
-    if (_jspx_th_s_url_64.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_64);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_64);
-    return false;
-  }
-
   private boolean _jspx_meth_s_url_65(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -3857,7 +3927,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_65 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_65.setPageContext(_jspx_page_context);
     _jspx_th_s_url_65.setParent(null);
-    _jspx_th_s_url_65.setAction("secure/action/kycTrackingRep4Ui");
+    _jspx_th_s_url_65.setAction("secure/action/kycTrackingRep1Ui");
     int _jspx_eval_s_url_65 = _jspx_th_s_url_65.doStartTag();
     if (_jspx_th_s_url_65.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_65);
@@ -3875,7 +3945,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_66 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_66.setPageContext(_jspx_page_context);
     _jspx_th_s_url_66.setParent(null);
-    _jspx_th_s_url_66.setAction("secure/action/kycTrackingRep6Ui");
+    _jspx_th_s_url_66.setAction("secure/action/kycTrackingRep3Ui");
     int _jspx_eval_s_url_66 = _jspx_th_s_url_66.doStartTag();
     if (_jspx_th_s_url_66.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_66);
@@ -3893,7 +3963,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_67 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_67.setPageContext(_jspx_page_context);
     _jspx_th_s_url_67.setParent(null);
-    _jspx_th_s_url_67.setAction("secure/action/kycTrackingRep8Ui");
+    _jspx_th_s_url_67.setAction("secure/action/kycTrackingRep4Ui");
     int _jspx_eval_s_url_67 = _jspx_th_s_url_67.doStartTag();
     if (_jspx_th_s_url_67.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_67);
@@ -3911,7 +3981,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_68 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_68.setPageContext(_jspx_page_context);
     _jspx_th_s_url_68.setParent(null);
-    _jspx_th_s_url_68.setAction("secure/action/kycTrackingRep9Ui");
+    _jspx_th_s_url_68.setAction("secure/action/kycTrackingRep6Ui");
     int _jspx_eval_s_url_68 = _jspx_th_s_url_68.doStartTag();
     if (_jspx_th_s_url_68.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_68);
@@ -3929,7 +3999,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_69 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_69.setPageContext(_jspx_page_context);
     _jspx_th_s_url_69.setParent(null);
-    _jspx_th_s_url_69.setAction("secure/action/kycTrackingRep10Ui");
+    _jspx_th_s_url_69.setAction("secure/action/kycTrackingRep8Ui");
     int _jspx_eval_s_url_69 = _jspx_th_s_url_69.doStartTag();
     if (_jspx_th_s_url_69.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_69);
@@ -3947,7 +4017,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_70 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_70.setPageContext(_jspx_page_context);
     _jspx_th_s_url_70.setParent(null);
-    _jspx_th_s_url_70.setAction("secure/action/kycTrackingRep11Ui");
+    _jspx_th_s_url_70.setAction("secure/action/kycTrackingRep9Ui");
     int _jspx_eval_s_url_70 = _jspx_th_s_url_70.doStartTag();
     if (_jspx_th_s_url_70.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_70);
@@ -3965,7 +4035,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_71 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_71.setPageContext(_jspx_page_context);
     _jspx_th_s_url_71.setParent(null);
-    _jspx_th_s_url_71.setAction("secure/action/kycTrackingRep14Ui");
+    _jspx_th_s_url_71.setAction("secure/action/kycTrackingRep10Ui");
     int _jspx_eval_s_url_71 = _jspx_th_s_url_71.doStartTag();
     if (_jspx_th_s_url_71.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_71);
@@ -3983,7 +4053,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_72 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_72.setPageContext(_jspx_page_context);
     _jspx_th_s_url_72.setParent(null);
-    _jspx_th_s_url_72.setAction("secure/action/kycTrackingRep13Ui");
+    _jspx_th_s_url_72.setAction("secure/action/kycTrackingRep11Ui");
     int _jspx_eval_s_url_72 = _jspx_th_s_url_72.doStartTag();
     if (_jspx_th_s_url_72.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_72);
@@ -4001,7 +4071,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_73 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_73.setPageContext(_jspx_page_context);
     _jspx_th_s_url_73.setParent(null);
-    _jspx_th_s_url_73.setAction("secure/action/kycTrackingRep16Ui");
+    _jspx_th_s_url_73.setAction("secure/action/kycTrackingRep14Ui");
     int _jspx_eval_s_url_73 = _jspx_th_s_url_73.doStartTag();
     if (_jspx_th_s_url_73.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_73);
@@ -4019,7 +4089,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_74 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_74.setPageContext(_jspx_page_context);
     _jspx_th_s_url_74.setParent(null);
-    _jspx_th_s_url_74.setAction("secure/action/kycTrackingRep18Ui");
+    _jspx_th_s_url_74.setAction("secure/action/kycTrackingRep13Ui");
     int _jspx_eval_s_url_74 = _jspx_th_s_url_74.doStartTag();
     if (_jspx_th_s_url_74.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_74);
@@ -4037,7 +4107,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_75 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_75.setPageContext(_jspx_page_context);
     _jspx_th_s_url_75.setParent(null);
-    _jspx_th_s_url_75.setAction("secure/action/kycTrackingRep19Ui");
+    _jspx_th_s_url_75.setAction("secure/action/kycTrackingRep16Ui");
     int _jspx_eval_s_url_75 = _jspx_th_s_url_75.doStartTag();
     if (_jspx_th_s_url_75.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_75);
@@ -4055,7 +4125,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_76 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_76.setPageContext(_jspx_page_context);
     _jspx_th_s_url_76.setParent(null);
-    _jspx_th_s_url_76.setAction("secure/action/kycTrackingRep17Ui");
+    _jspx_th_s_url_76.setAction("secure/action/kycTrackingRep18Ui");
     int _jspx_eval_s_url_76 = _jspx_th_s_url_76.doStartTag();
     if (_jspx_th_s_url_76.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_76);
@@ -4073,13 +4143,85 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_77 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_77.setPageContext(_jspx_page_context);
     _jspx_th_s_url_77.setParent(null);
-    _jspx_th_s_url_77.setAction("secure/action/kycTrackingRep20Ui");
+    _jspx_th_s_url_77.setAction("secure/action/kycTrackingRep19Ui");
     int _jspx_eval_s_url_77 = _jspx_th_s_url_77.doStartTag();
     if (_jspx_th_s_url_77.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_77);
       return true;
     }
     _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_77);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_78(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_78 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_78.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_78.setParent(null);
+    _jspx_th_s_url_78.setAction("secure/action/kycTrackingRep17Ui");
+    int _jspx_eval_s_url_78 = _jspx_th_s_url_78.doStartTag();
+    if (_jspx_th_s_url_78.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_78);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_78);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_79(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_79 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_79.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_79.setParent(null);
+    _jspx_th_s_url_79.setAction("secure/action/kycTrackingRep34Ui");
+    int _jspx_eval_s_url_79 = _jspx_th_s_url_79.doStartTag();
+    if (_jspx_th_s_url_79.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_79);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_79);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_80(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_80 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_80.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_80.setParent(null);
+    _jspx_th_s_url_80.setAction("secure/action/kycTrackingRep35Ui");
+    int _jspx_eval_s_url_80 = _jspx_th_s_url_80.doStartTag();
+    if (_jspx_th_s_url_80.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_80);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_80);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_81(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_81 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_81.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_81.setParent(null);
+    _jspx_th_s_url_81.setAction("secure/action/kycTrackingRep20Ui");
+    int _jspx_eval_s_url_81 = _jspx_th_s_url_81.doStartTag();
+    if (_jspx_th_s_url_81.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_81);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_81);
     return false;
   }
 
@@ -4110,14 +4252,14 @@ out.print(pagename);
           return true;
         out.write("</p>\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_78((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
+        if (_jspx_meth_s_url_82((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
           return true;
         out.write("\"><p>Total Agent Count</a> : ");
         if (_jspx_meth_s_property_23((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
           return true;
         out.write("</p>\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_79((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
+        if (_jspx_meth_s_url_83((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
           return true;
         out.write("\"><p>Total BSA Count</a> : ");
         if (_jspx_meth_s_property_24((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_6, _jspx_page_context))
@@ -4175,21 +4317,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_78(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_6, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_82(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_6, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_78 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_78.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_78.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_6);
-    _jspx_th_s_url_78.setAction("secure/action/agentcount");
-    int _jspx_eval_s_url_78 = _jspx_th_s_url_78.doStartTag();
-    if (_jspx_th_s_url_78.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_78);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_82 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_82.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_82.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_6);
+    _jspx_th_s_url_82.setAction("secure/action/agentcount");
+    int _jspx_eval_s_url_82 = _jspx_th_s_url_82.doStartTag();
+    if (_jspx_th_s_url_82.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_82);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_78);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_82);
     return false;
   }
 
@@ -4211,21 +4353,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_79(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_6, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_83(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_6, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_79 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_79.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_79.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_6);
-    _jspx_th_s_url_79.setAction("secure/action/bsacount");
-    int _jspx_eval_s_url_79 = _jspx_th_s_url_79.doStartTag();
-    if (_jspx_th_s_url_79.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_79);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_83 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_83.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_83.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_6);
+    _jspx_th_s_url_83.setAction("secure/action/bsacount");
+    int _jspx_eval_s_url_83 = _jspx_th_s_url_83.doStartTag();
+    if (_jspx_th_s_url_83.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_83);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_79);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_83);
     return false;
   }
 
@@ -4247,78 +4389,6 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_80(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_80 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_80.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_80.setParent(null);
-    _jspx_th_s_url_80.setAction("secure/action/sm_tm_management");
-    int _jspx_eval_s_url_80 = _jspx_th_s_url_80.doStartTag();
-    if (_jspx_th_s_url_80.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_80);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_80);
-    return false;
-  }
-
-  private boolean _jspx_meth_s_url_81(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_81 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_81.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_81.setParent(null);
-    _jspx_th_s_url_81.setAction("secure/action/kycTrackingRep12Ui");
-    int _jspx_eval_s_url_81 = _jspx_th_s_url_81.doStartTag();
-    if (_jspx_th_s_url_81.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_81);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_81);
-    return false;
-  }
-
-  private boolean _jspx_meth_s_url_82(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_82 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_82.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_82.setParent(null);
-    _jspx_th_s_url_82.setAction("secure/action/kycTrackingRep15Ui");
-    int _jspx_eval_s_url_82 = _jspx_th_s_url_82.doStartTag();
-    if (_jspx_th_s_url_82.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_82);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_82);
-    return false;
-  }
-
-  private boolean _jspx_meth_s_url_83(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_83 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_83.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_83.setParent(null);
-    _jspx_th_s_url_83.setAction("secure/action/kycTrackingRep21Ui");
-    int _jspx_eval_s_url_83 = _jspx_th_s_url_83.doStartTag();
-    if (_jspx_th_s_url_83.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_83);
-      return true;
-    }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_83);
-    return false;
-  }
-
   private boolean _jspx_meth_s_url_84(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -4327,7 +4397,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_84 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_84.setPageContext(_jspx_page_context);
     _jspx_th_s_url_84.setParent(null);
-    _jspx_th_s_url_84.setAction("secure/action/kycTrackingRep23Ui");
+    _jspx_th_s_url_84.setAction("secure/action/sm_tm_management");
     int _jspx_eval_s_url_84 = _jspx_th_s_url_84.doStartTag();
     if (_jspx_th_s_url_84.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_84);
@@ -4345,7 +4415,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_85 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_85.setPageContext(_jspx_page_context);
     _jspx_th_s_url_85.setParent(null);
-    _jspx_th_s_url_85.setAction("secure/action/kycTrackingRep25Ui");
+    _jspx_th_s_url_85.setAction("secure/action/kycTrackingRep12Ui");
     int _jspx_eval_s_url_85 = _jspx_th_s_url_85.doStartTag();
     if (_jspx_th_s_url_85.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_85);
@@ -4363,7 +4433,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_86 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_86.setPageContext(_jspx_page_context);
     _jspx_th_s_url_86.setParent(null);
-    _jspx_th_s_url_86.setAction("secure/action/kycTrackingRep26Ui");
+    _jspx_th_s_url_86.setAction("secure/action/kycTrackingRep15Ui");
     int _jspx_eval_s_url_86 = _jspx_th_s_url_86.doStartTag();
     if (_jspx_th_s_url_86.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_86);
@@ -4381,7 +4451,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_87 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_87.setPageContext(_jspx_page_context);
     _jspx_th_s_url_87.setParent(null);
-    _jspx_th_s_url_87.setAction("secure/action/kycTrackingRep27Ui");
+    _jspx_th_s_url_87.setAction("secure/action/kycTrackingRep21Ui");
     int _jspx_eval_s_url_87 = _jspx_th_s_url_87.doStartTag();
     if (_jspx_th_s_url_87.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_87);
@@ -4399,7 +4469,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_88 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_88.setPageContext(_jspx_page_context);
     _jspx_th_s_url_88.setParent(null);
-    _jspx_th_s_url_88.setAction("secure/action/kycTrackingRep28Ui");
+    _jspx_th_s_url_88.setAction("secure/action/kycTrackingRep23Ui");
     int _jspx_eval_s_url_88 = _jspx_th_s_url_88.doStartTag();
     if (_jspx_th_s_url_88.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_88);
@@ -4417,7 +4487,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_89 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_89.setPageContext(_jspx_page_context);
     _jspx_th_s_url_89.setParent(null);
-    _jspx_th_s_url_89.setAction("secure/action/kycTrackingRep29Ui");
+    _jspx_th_s_url_89.setAction("secure/action/kycTrackingRep25Ui");
     int _jspx_eval_s_url_89 = _jspx_th_s_url_89.doStartTag();
     if (_jspx_th_s_url_89.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_89);
@@ -4435,7 +4505,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_90 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_90.setPageContext(_jspx_page_context);
     _jspx_th_s_url_90.setParent(null);
-    _jspx_th_s_url_90.setAction("secure/action/kycTrackingRep30Ui");
+    _jspx_th_s_url_90.setAction("secure/action/kycTrackingRep26Ui");
     int _jspx_eval_s_url_90 = _jspx_th_s_url_90.doStartTag();
     if (_jspx_th_s_url_90.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_90);
@@ -4453,7 +4523,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_91 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_91.setPageContext(_jspx_page_context);
     _jspx_th_s_url_91.setParent(null);
-    _jspx_th_s_url_91.setAction("secure/action/kycTrackingRep31Ui");
+    _jspx_th_s_url_91.setAction("secure/action/kycTrackingRep27Ui");
     int _jspx_eval_s_url_91 = _jspx_th_s_url_91.doStartTag();
     if (_jspx_th_s_url_91.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_91);
@@ -4471,7 +4541,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_92 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_92.setPageContext(_jspx_page_context);
     _jspx_th_s_url_92.setParent(null);
-    _jspx_th_s_url_92.setAction("secure/action/kycTrackingRep32Ui");
+    _jspx_th_s_url_92.setAction("secure/action/kycTrackingRep28Ui");
     int _jspx_eval_s_url_92 = _jspx_th_s_url_92.doStartTag();
     if (_jspx_th_s_url_92.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_92);
@@ -4489,7 +4559,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_93 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_93.setPageContext(_jspx_page_context);
     _jspx_th_s_url_93.setParent(null);
-    _jspx_th_s_url_93.setAction("secure/action/kycTrackingRep33Ui");
+    _jspx_th_s_url_93.setAction("secure/action/kycTrackingRep29Ui");
     int _jspx_eval_s_url_93 = _jspx_th_s_url_93.doStartTag();
     if (_jspx_th_s_url_93.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_93);
@@ -4507,7 +4577,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_94 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_94.setPageContext(_jspx_page_context);
     _jspx_th_s_url_94.setParent(null);
-    _jspx_th_s_url_94.setAction("secure/action/kycTrackingRep21Ui");
+    _jspx_th_s_url_94.setAction("secure/action/kycTrackingRep30Ui");
     int _jspx_eval_s_url_94 = _jspx_th_s_url_94.doStartTag();
     if (_jspx_th_s_url_94.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_94);
@@ -4525,7 +4595,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_95 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_95.setPageContext(_jspx_page_context);
     _jspx_th_s_url_95.setParent(null);
-    _jspx_th_s_url_95.setAction("secure/action/kycTrackingRep22Ui");
+    _jspx_th_s_url_95.setAction("secure/action/kycTrackingRep31Ui");
     int _jspx_eval_s_url_95 = _jspx_th_s_url_95.doStartTag();
     if (_jspx_th_s_url_95.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_95);
@@ -4543,7 +4613,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_96 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_96.setPageContext(_jspx_page_context);
     _jspx_th_s_url_96.setParent(null);
-    _jspx_th_s_url_96.setAction("secure/action/kycTrackingRep23Ui");
+    _jspx_th_s_url_96.setAction("secure/action/kycTrackingRep32Ui");
     int _jspx_eval_s_url_96 = _jspx_th_s_url_96.doStartTag();
     if (_jspx_th_s_url_96.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_96);
@@ -4561,7 +4631,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_97 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_97.setPageContext(_jspx_page_context);
     _jspx_th_s_url_97.setParent(null);
-    _jspx_th_s_url_97.setAction("secure/action/kycTrackingRep24Ui");
+    _jspx_th_s_url_97.setAction("secure/action/kycTrackingRep33Ui");
     int _jspx_eval_s_url_97 = _jspx_th_s_url_97.doStartTag();
     if (_jspx_th_s_url_97.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_97);
@@ -4579,7 +4649,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_98 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_98.setPageContext(_jspx_page_context);
     _jspx_th_s_url_98.setParent(null);
-    _jspx_th_s_url_98.setAction("secure/action/kycTrackingRep25Ui");
+    _jspx_th_s_url_98.setAction("secure/action/kycTrackingRep34Ui");
     int _jspx_eval_s_url_98 = _jspx_th_s_url_98.doStartTag();
     if (_jspx_th_s_url_98.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_98);
@@ -4597,7 +4667,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_99 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_99.setPageContext(_jspx_page_context);
     _jspx_th_s_url_99.setParent(null);
-    _jspx_th_s_url_99.setAction("secure/action/kycTrackingRep26Ui");
+    _jspx_th_s_url_99.setAction("secure/action/kycTrackingRep35Ui");
     int _jspx_eval_s_url_99 = _jspx_th_s_url_99.doStartTag();
     if (_jspx_th_s_url_99.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_99);
@@ -4615,7 +4685,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_100 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_100.setPageContext(_jspx_page_context);
     _jspx_th_s_url_100.setParent(null);
-    _jspx_th_s_url_100.setAction("secure/action/kycTrackingRep27Ui");
+    _jspx_th_s_url_100.setAction("secure/action/kycTrackingRep21Ui");
     int _jspx_eval_s_url_100 = _jspx_th_s_url_100.doStartTag();
     if (_jspx_th_s_url_100.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_100);
@@ -4633,7 +4703,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_101 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_101.setPageContext(_jspx_page_context);
     _jspx_th_s_url_101.setParent(null);
-    _jspx_th_s_url_101.setAction("secure/action/kycTrackingRep28Ui");
+    _jspx_th_s_url_101.setAction("secure/action/kycTrackingRep22Ui");
     int _jspx_eval_s_url_101 = _jspx_th_s_url_101.doStartTag();
     if (_jspx_th_s_url_101.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_101);
@@ -4651,7 +4721,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_102 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_102.setPageContext(_jspx_page_context);
     _jspx_th_s_url_102.setParent(null);
-    _jspx_th_s_url_102.setAction("secure/action/kycTrackingRep29Ui");
+    _jspx_th_s_url_102.setAction("secure/action/kycTrackingRep23Ui");
     int _jspx_eval_s_url_102 = _jspx_th_s_url_102.doStartTag();
     if (_jspx_th_s_url_102.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_102);
@@ -4669,7 +4739,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_103 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_103.setPageContext(_jspx_page_context);
     _jspx_th_s_url_103.setParent(null);
-    _jspx_th_s_url_103.setAction("secure/action/kycTrackingRep30Ui");
+    _jspx_th_s_url_103.setAction("secure/action/kycTrackingRep24Ui");
     int _jspx_eval_s_url_103 = _jspx_th_s_url_103.doStartTag();
     if (_jspx_th_s_url_103.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_103);
@@ -4687,7 +4757,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_104 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_104.setPageContext(_jspx_page_context);
     _jspx_th_s_url_104.setParent(null);
-    _jspx_th_s_url_104.setAction("secure/action/kycTrackingRep31Ui");
+    _jspx_th_s_url_104.setAction("secure/action/kycTrackingRep25Ui");
     int _jspx_eval_s_url_104 = _jspx_th_s_url_104.doStartTag();
     if (_jspx_th_s_url_104.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_104);
@@ -4705,7 +4775,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_105 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_105.setPageContext(_jspx_page_context);
     _jspx_th_s_url_105.setParent(null);
-    _jspx_th_s_url_105.setAction("secure/action/kycTrackingRep32Ui");
+    _jspx_th_s_url_105.setAction("secure/action/kycTrackingRep26Ui");
     int _jspx_eval_s_url_105 = _jspx_th_s_url_105.doStartTag();
     if (_jspx_th_s_url_105.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_105);
@@ -4723,7 +4793,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_106 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_106.setPageContext(_jspx_page_context);
     _jspx_th_s_url_106.setParent(null);
-    _jspx_th_s_url_106.setAction("secure/action/kycTrackingRep33Ui");
+    _jspx_th_s_url_106.setAction("secure/action/kycTrackingRep27Ui");
     int _jspx_eval_s_url_106 = _jspx_th_s_url_106.doStartTag();
     if (_jspx_th_s_url_106.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_106);
@@ -4741,7 +4811,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_107 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_107.setPageContext(_jspx_page_context);
     _jspx_th_s_url_107.setParent(null);
-    _jspx_th_s_url_107.setAction("secure/action/kycTrackingRep21Ui");
+    _jspx_th_s_url_107.setAction("secure/action/kycTrackingRep28Ui");
     int _jspx_eval_s_url_107 = _jspx_th_s_url_107.doStartTag();
     if (_jspx_th_s_url_107.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_107);
@@ -4759,7 +4829,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_108 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_108.setPageContext(_jspx_page_context);
     _jspx_th_s_url_108.setParent(null);
-    _jspx_th_s_url_108.setAction("secure/action/kycTrackingRep22Ui");
+    _jspx_th_s_url_108.setAction("secure/action/kycTrackingRep29Ui");
     int _jspx_eval_s_url_108 = _jspx_th_s_url_108.doStartTag();
     if (_jspx_th_s_url_108.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_108);
@@ -4777,7 +4847,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_109 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_109.setPageContext(_jspx_page_context);
     _jspx_th_s_url_109.setParent(null);
-    _jspx_th_s_url_109.setAction("secure/action/kycTrackingRep23Ui");
+    _jspx_th_s_url_109.setAction("secure/action/kycTrackingRep30Ui");
     int _jspx_eval_s_url_109 = _jspx_th_s_url_109.doStartTag();
     if (_jspx_th_s_url_109.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_109);
@@ -4795,7 +4865,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_110 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_110.setPageContext(_jspx_page_context);
     _jspx_th_s_url_110.setParent(null);
-    _jspx_th_s_url_110.setAction("secure/action/kycTrackingRep24Ui");
+    _jspx_th_s_url_110.setAction("secure/action/kycTrackingRep31Ui");
     int _jspx_eval_s_url_110 = _jspx_th_s_url_110.doStartTag();
     if (_jspx_th_s_url_110.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_110);
@@ -4813,7 +4883,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_111 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_111.setPageContext(_jspx_page_context);
     _jspx_th_s_url_111.setParent(null);
-    _jspx_th_s_url_111.setAction("secure/action/kycTrackingRep25Ui");
+    _jspx_th_s_url_111.setAction("secure/action/kycTrackingRep32Ui");
     int _jspx_eval_s_url_111 = _jspx_th_s_url_111.doStartTag();
     if (_jspx_th_s_url_111.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_111);
@@ -4831,7 +4901,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_112 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_112.setPageContext(_jspx_page_context);
     _jspx_th_s_url_112.setParent(null);
-    _jspx_th_s_url_112.setAction("secure/action/kycTrackingRep26Ui");
+    _jspx_th_s_url_112.setAction("secure/action/kycTrackingRep33Ui");
     int _jspx_eval_s_url_112 = _jspx_th_s_url_112.doStartTag();
     if (_jspx_th_s_url_112.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_112);
@@ -4849,7 +4919,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_113 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_113.setPageContext(_jspx_page_context);
     _jspx_th_s_url_113.setParent(null);
-    _jspx_th_s_url_113.setAction("secure/action/kycTrackingRep27Ui");
+    _jspx_th_s_url_113.setAction("secure/action/kycTrackingRep34Ui");
     int _jspx_eval_s_url_113 = _jspx_th_s_url_113.doStartTag();
     if (_jspx_th_s_url_113.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_113);
@@ -4867,7 +4937,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_114 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_114.setPageContext(_jspx_page_context);
     _jspx_th_s_url_114.setParent(null);
-    _jspx_th_s_url_114.setAction("secure/action/kycTrackingRep28Ui");
+    _jspx_th_s_url_114.setAction("secure/action/kycTrackingRep35Ui");
     int _jspx_eval_s_url_114 = _jspx_th_s_url_114.doStartTag();
     if (_jspx_th_s_url_114.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_114);
@@ -4885,7 +4955,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_115 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_115.setPageContext(_jspx_page_context);
     _jspx_th_s_url_115.setParent(null);
-    _jspx_th_s_url_115.setAction("secure/action/kycTrackingRep29Ui");
+    _jspx_th_s_url_115.setAction("secure/action/kycTrackingRep21Ui");
     int _jspx_eval_s_url_115 = _jspx_th_s_url_115.doStartTag();
     if (_jspx_th_s_url_115.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_115);
@@ -4903,7 +4973,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_116 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_116.setPageContext(_jspx_page_context);
     _jspx_th_s_url_116.setParent(null);
-    _jspx_th_s_url_116.setAction("secure/action/kycTrackingRep30Ui");
+    _jspx_th_s_url_116.setAction("secure/action/kycTrackingRep22Ui");
     int _jspx_eval_s_url_116 = _jspx_th_s_url_116.doStartTag();
     if (_jspx_th_s_url_116.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_116);
@@ -4921,7 +4991,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_117 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_117.setPageContext(_jspx_page_context);
     _jspx_th_s_url_117.setParent(null);
-    _jspx_th_s_url_117.setAction("secure/action/kycTrackingRep31Ui");
+    _jspx_th_s_url_117.setAction("secure/action/kycTrackingRep23Ui");
     int _jspx_eval_s_url_117 = _jspx_th_s_url_117.doStartTag();
     if (_jspx_th_s_url_117.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_117);
@@ -4939,7 +5009,7 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_118 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_118.setPageContext(_jspx_page_context);
     _jspx_th_s_url_118.setParent(null);
-    _jspx_th_s_url_118.setAction("secure/action/kycTrackingRep32Ui");
+    _jspx_th_s_url_118.setAction("secure/action/kycTrackingRep24Ui");
     int _jspx_eval_s_url_118 = _jspx_th_s_url_118.doStartTag();
     if (_jspx_th_s_url_118.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_118);
@@ -4957,13 +5027,193 @@ out.print(pagename);
     org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_119 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
     _jspx_th_s_url_119.setPageContext(_jspx_page_context);
     _jspx_th_s_url_119.setParent(null);
-    _jspx_th_s_url_119.setAction("secure/action/kycTrackingRep33Ui");
+    _jspx_th_s_url_119.setAction("secure/action/kycTrackingRep25Ui");
     int _jspx_eval_s_url_119 = _jspx_th_s_url_119.doStartTag();
     if (_jspx_th_s_url_119.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_119);
       return true;
     }
     _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_119);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_120(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_120 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_120.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_120.setParent(null);
+    _jspx_th_s_url_120.setAction("secure/action/kycTrackingRep26Ui");
+    int _jspx_eval_s_url_120 = _jspx_th_s_url_120.doStartTag();
+    if (_jspx_th_s_url_120.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_120);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_120);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_121(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_121 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_121.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_121.setParent(null);
+    _jspx_th_s_url_121.setAction("secure/action/kycTrackingRep27Ui");
+    int _jspx_eval_s_url_121 = _jspx_th_s_url_121.doStartTag();
+    if (_jspx_th_s_url_121.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_121);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_121);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_122(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_122 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_122.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_122.setParent(null);
+    _jspx_th_s_url_122.setAction("secure/action/kycTrackingRep28Ui");
+    int _jspx_eval_s_url_122 = _jspx_th_s_url_122.doStartTag();
+    if (_jspx_th_s_url_122.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_122);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_122);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_123(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_123 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_123.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_123.setParent(null);
+    _jspx_th_s_url_123.setAction("secure/action/kycTrackingRep29Ui");
+    int _jspx_eval_s_url_123 = _jspx_th_s_url_123.doStartTag();
+    if (_jspx_th_s_url_123.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_123);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_123);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_124(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_124 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_124.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_124.setParent(null);
+    _jspx_th_s_url_124.setAction("secure/action/kycTrackingRep30Ui");
+    int _jspx_eval_s_url_124 = _jspx_th_s_url_124.doStartTag();
+    if (_jspx_th_s_url_124.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_124);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_124);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_125(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_125 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_125.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_125.setParent(null);
+    _jspx_th_s_url_125.setAction("secure/action/kycTrackingRep31Ui");
+    int _jspx_eval_s_url_125 = _jspx_th_s_url_125.doStartTag();
+    if (_jspx_th_s_url_125.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_125);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_125);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_126(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_126 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_126.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_126.setParent(null);
+    _jspx_th_s_url_126.setAction("secure/action/kycTrackingRep32Ui");
+    int _jspx_eval_s_url_126 = _jspx_th_s_url_126.doStartTag();
+    if (_jspx_th_s_url_126.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_126);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_126);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_127(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_127 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_127.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_127.setParent(null);
+    _jspx_th_s_url_127.setAction("secure/action/kycTrackingRep33Ui");
+    int _jspx_eval_s_url_127 = _jspx_th_s_url_127.doStartTag();
+    if (_jspx_th_s_url_127.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_127);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_127);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_128(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_128 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_128.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_128.setParent(null);
+    _jspx_th_s_url_128.setAction("secure/action/kycTrackingRep34Ui");
+    int _jspx_eval_s_url_128 = _jspx_th_s_url_128.doStartTag();
+    if (_jspx_th_s_url_128.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_128);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_128);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_url_129(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:url
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_129 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_129.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_129.setParent(null);
+    _jspx_th_s_url_129.setAction("secure/action/kycTrackingRep35Ui");
+    int _jspx_eval_s_url_129 = _jspx_th_s_url_129.doStartTag();
+    if (_jspx_th_s_url_129.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_129);
+      return true;
+    }
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_129);
     return false;
   }
 
@@ -4996,14 +5246,14 @@ out.print(pagename);
         out.write("</p>\n");
         out.write("\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_120((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
+        if (_jspx_meth_s_url_130((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
           return true;
         out.write("\"><p>Total Agent Count</a> : ");
         if (_jspx_meth_s_property_27((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
           return true;
         out.write("</p>\n");
         out.write("            <a href=\"");
-        if (_jspx_meth_s_url_121((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
+        if (_jspx_meth_s_url_131((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
           return true;
         out.write("\"><p>Total BSA Count</a> : ");
         if (_jspx_meth_s_property_28((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_iterator_7, _jspx_page_context))
@@ -5063,21 +5313,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_120(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_7, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_130(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_7, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_120 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_120.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_120.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_7);
-    _jspx_th_s_url_120.setAction("secure/action/agentcount");
-    int _jspx_eval_s_url_120 = _jspx_th_s_url_120.doStartTag();
-    if (_jspx_th_s_url_120.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_120);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_130 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_130.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_130.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_7);
+    _jspx_th_s_url_130.setAction("secure/action/agentcount");
+    int _jspx_eval_s_url_130 = _jspx_th_s_url_130.doStartTag();
+    if (_jspx_th_s_url_130.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_130);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_120);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_130);
     return false;
   }
 
@@ -5099,21 +5349,21 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_121(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_7, PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_131(javax.servlet.jsp.tagext.JspTag _jspx_th_s_iterator_7, PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_121 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_121.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_121.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_7);
-    _jspx_th_s_url_121.setAction("secure/action/bsacount");
-    int _jspx_eval_s_url_121 = _jspx_th_s_url_121.doStartTag();
-    if (_jspx_th_s_url_121.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_121);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_131 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_131.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_131.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_iterator_7);
+    _jspx_th_s_url_131.setAction("secure/action/bsacount");
+    int _jspx_eval_s_url_131 = _jspx_th_s_url_131.doStartTag();
+    if (_jspx_th_s_url_131.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_131);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_121);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_131);
     return false;
   }
 
@@ -5135,39 +5385,39 @@ out.print(pagename);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_122(PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_132(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_122 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_122.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_122.setParent(null);
-    _jspx_th_s_url_122.setAction("secure/action/kycTrackingRep8Ui");
-    int _jspx_eval_s_url_122 = _jspx_th_s_url_122.doStartTag();
-    if (_jspx_th_s_url_122.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_122);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_132 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_132.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_132.setParent(null);
+    _jspx_th_s_url_132.setAction("secure/action/kycTrackingRep8Ui");
+    int _jspx_eval_s_url_132 = _jspx_th_s_url_132.doStartTag();
+    if (_jspx_th_s_url_132.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_132);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_122);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_132);
     return false;
   }
 
-  private boolean _jspx_meth_s_url_123(PageContext _jspx_page_context)
+  private boolean _jspx_meth_s_url_133(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  s:url
-    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_123 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
-    _jspx_th_s_url_123.setPageContext(_jspx_page_context);
-    _jspx_th_s_url_123.setParent(null);
-    _jspx_th_s_url_123.setAction("secure/action/sm_tm_management");
-    int _jspx_eval_s_url_123 = _jspx_th_s_url_123.doStartTag();
-    if (_jspx_th_s_url_123.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_123);
+    org.apache.struts2.views.jsp.URLTag _jspx_th_s_url_133 = (org.apache.struts2.views.jsp.URLTag) _jspx_tagPool_s_url_action_nobody.get(org.apache.struts2.views.jsp.URLTag.class);
+    _jspx_th_s_url_133.setPageContext(_jspx_page_context);
+    _jspx_th_s_url_133.setParent(null);
+    _jspx_th_s_url_133.setAction("secure/action/sm_tm_management");
+    int _jspx_eval_s_url_133 = _jspx_th_s_url_133.doStartTag();
+    if (_jspx_th_s_url_133.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_133);
       return true;
     }
-    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_123);
+    _jspx_tagPool_s_url_action_nobody.reuse(_jspx_th_s_url_133);
     return false;
   }
 }
